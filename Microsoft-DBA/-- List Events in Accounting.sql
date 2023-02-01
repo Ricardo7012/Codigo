@@ -1,0 +1,11 @@
+-- List Events in Accounting
+
+SELECT DATEPART(YEAR, DATE) AS [year]
+	, DATEPART(MONTH, DATE) AS [month]
+	, COUNT(*) AS [count]
+FROM Event
+WITH(NOLOCK)
+GROUP BY DATEPART(YEAR, DATE)
+	, DATEPART(MONTH, DATE)
+ORDER BY 1
+	, 2

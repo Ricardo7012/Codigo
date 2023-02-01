@@ -1,0 +1,1 @@
+SELECT * FROM sys.fn_trace_gettable('M:\Database Support\Joseph Gutierrez\urg.trc',1)

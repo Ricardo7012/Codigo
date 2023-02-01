@@ -1,0 +1,20 @@
+-- List DB Sizes
+
+CREATE TABLE #databases (
+	DATABASE_NAME VARCHAR(50)
+	, DATABASE_SIZE FLOAT
+	, REMARKS VARCHAR(100)
+	)
+
+INSERT #Databases
+EXEC ('EXEC sp_databases');
+
+SELECT @@SERVERNAME AS 'Server Name'
+	, DATABASE_NAME AS 'DB Name'
+	, DATABASE_SIZE AS '(KB)'
+	, ROUND(DATABASE_SIZE / 1024, 2) AS '(MB)'
+	, ROUND((DATABASE_SIZE / 1024) / 1024, 2) AS '(GB)'
+	, REMARKS AS 'Remarks'
+FROM #databases;
+
+DROP TABLE #databases;

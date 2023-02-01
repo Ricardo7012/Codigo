@@ -1,0 +1,27 @@
+-- List Execute in Stored Procedures
+
+DROP TABLE #TEMP
+CREATE TABLE #TEMP
+(
+ID INT IDENTITY (100,1),
+LINE VARCHAR(8000)
+)
+INSERT INTO #TEMP
+EXEC sp_helptext 'Proc_ReconstructPlayerTrips'
+
+SELECT *
+FROM #TEMP 
+WHERE 
+(
+UPPER(LINE) LIKE '%Exec%'
+--OR 
+--UPPER(LINE) LIKE '%JOIN%'
+--OR
+--UPPER(LINE) LIKE '%UPDATE%'
+--OR
+--UPPER(LINE) LIKE '%DELETE%'
+--OR
+--UPPER(LINE) LIKE '%INTO%'
+
+)
+AND LTRIM(LINE) NOT LIKE '--%'

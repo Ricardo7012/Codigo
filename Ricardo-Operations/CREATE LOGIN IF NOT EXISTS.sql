@@ -1,0 +1,15 @@
+USE [master];
+GO
+IF NOT EXISTS
+(
+    SELECT name
+    FROM [sys].[server_principals]
+    WHERE name = N'IEHP\PSQLAGENTSVC'
+)
+    BEGIN
+        CREATE LOGIN [IEHP\PSQLAGENTSVC] FROM WINDOWS
+        WITH DEFAULT_DATABASE = [tempdb], DEFAULT_LANGUAGE = [us_english];
+
+    END;
+ALTER SERVER ROLE [sysadmin] ADD MEMBER [IEHP\PSQLAGENTSVC];
+GO

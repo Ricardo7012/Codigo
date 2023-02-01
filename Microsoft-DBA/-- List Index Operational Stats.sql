@@ -1,0 +1,13 @@
+-- List Index Operational Stats
+
+SELECT OBJECT_NAME(A.[OBJECT_ID]) AS 'Object Name'
+	, I.[NAME] AS 'Index Name'
+	, ' - - - - - > ' AS 'Leaf Info'
+	, A.LEAF_INSERT_COUNT AS 'Insert Count'
+	, A.LEAF_UPDATE_COUNT AS 'Update Count'
+	, A.LEAF_DELETE_COUNT AS 'Delete Count'
+FROM SYS.DM_DB_INDEX_OPERATIONAL_STATS(NULL, NULL, NULL, NULL) A
+INNER JOIN SYS.INDEXES AS I
+	ON I.[OBJECT_ID] = A.[OBJECT_ID]
+		AND I.INDEX_ID = A.INDEX_ID
+WHERE OBJECTPROPERTY(A.[OBJECT_ID], 'IsUserTable') = 1

@@ -1,0 +1,24 @@
+-- Alter TempDB to New Size -- Restart Required --
+
+USE master
+GO
+
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = tempdev, FILENAME = 'T:\MSSQL\DATA\tempdb.mdf',SIZE = 2048MB )
+GO
+
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = tempdev_1, FILENAME = 'T:\MSSQL\DATA\tempdev_1.mdf',SIZE = 2048MB )
+GO
+
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = tempdev_2, FILENAME = 'T:\MSSQL\DATA\tempdev_2.mdf',SIZE = 2048MB )
+GO
+
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = tempdev_3, FILENAME = 'T:\MSSQL\DATA\tempdev_3.mdf',SIZE = 2048MB )
+GO
+
+ALTER DATABASE TempDB MODIFY FILE
+(NAME = templog, FILENAME = 'T:\MSSQL\LOG\templog.ldf',SIZE = 1024MB)
+GO

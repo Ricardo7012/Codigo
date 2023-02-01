@@ -1,0 +1,137 @@
+/*
+http://msdn.microsoft.com/en-us/library/ms345408.aspx
+Moving System Databases
+SQL Server 2008 R2
+Rich Fdz 9.21.2010
+WIKI: Move SQL Server System database
+https://wiki.dcma.mil/itcso/index.php/SQL
+https://wiki.dcma.mil/itcso/index.php/Move_SQL_Server_System_database
+*/
+--SEE ALL THE DATA AND LOG FILES AND CAPTURE FOR ROLLBACK
+SELECT name, physical_name from sys.master_files
+GO
+SET NOCOUNT ON
+
+/*****************************************************
+Create folders on the root of each drive 
+\MSSQL\DATA\
+******************************************************/
+
+/**** TEMPDB ****/
+USE MASTER
+GO
+ALTER DATABASE tempdb modify file (name=tempdev,filename='T:\MSSQL\DATA\tempdb.mdf')
+GO
+ALTER DATABASE tempdb modify file (name=templog,filename='T:\MSSQL\DATA\tempdb.ldf')
+GO
+
+/**** MSDB ****/
+USE MASTER
+GO
+ALTER DATABASE msdb modify file (name=msdbdata,filename='S:\MSSQL\DATA\MSDBData.mdf')
+GO
+ALTER DATABASE msdb modify file (name=msdblog,filename='S:\MSSQL\DATA\MSDBLog.ldf')
+GO
+
+/**** MODEL ****/
+USE MASTER
+GO
+ALTER DATABASE model modify file (name=modeldev,filename='S:\MSSQL\DATA\model.mdf')
+GO
+ALTER DATABASE model modify file (name=modellog,filename='S:\MSSQL\DATA\modellog.ldf')
+GO
+
+/**** MASTER ****/
+/*
+IN SQL SERVER CONFIGURATION MANAGER. RIGHT CLICK ON SQL SERVER AND GO TO PROPERTIES – ADVANCED TAB - STARTUP PARAMETERS
+
+-dS:\MSSQL\DATA\master.mdf;-eS:\MSSQL\Log\ERRORLOG;-lS:\MSSQL\DATA\mastlog.ldf
+NOTE:COPY ALL RELEVANT FILES TO NEW LOCATION
+*/
+
+--IF ERROR 
+USE msdb 
+GO 
+EXEC msdb.dbo.sp_set_sqlagent_properties @errorlog_file=N's:\MSSQL\LOG\SQLAGENT.OUT' 
+GO
+
+--CONFIRM CHANGES
+--SEE ALL THE DATA AND LOG FILES AND CAPTURE FOR ROLLBACK
+SELECT name, physical_name from sys.master_files
+GO
+
+--MOVE SQLAGENT.OUT
+USE msdb
+GO
+EXEC msdb.dbo.sp_set_sqlagent_properties @errorlog_file=N'D:\MSSQL\Log\SQLAGENT.OUT'
+GO
+
+
+/*********************************************************************************/
+/**** ROLLBACK ****/
+/*********************************************************************************/
+
+/**** TEMPDB ****/
+USE MASTER
+GO
+ALTER DATABASE tempdb modify file (name=tempdev,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\tempdb.mdf')
+GO
+ALTER DATABASE tempdb modify file (name=templog,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\templog.ldf')
+GO
+
+/**** MSDB ****/
+USE MASTER
+GO
+ALTER DATABASE msdb modify file (name=msdbdata,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\MSDBData.mdf')
+GO
+ALTER DATABASE msdb modify file (name=msdblog,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\MSDBLog.ldf')
+GO
+
+/**** MODEL ****/
+USE MASTER
+GO
+ALTER DATABASE model modify file (name=modeldev,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\model.mdf')
+GO
+ALTER DATABASE model modify file (name=modellog,filename='C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\modellog.ldf')
+GO
+
+/**** MASTER ****/
+/*
+IN SQL SERVER CONFIGURATION MANAGER). RIGHT CLICK ON SQL SERVER AND GO TO PROPERTIES – ADVANCED TAB - STARTUP PARAMETERS
+-dC:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\master.mdf;-eC:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\LOG\ERRORLOG;-lC:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\mastlog.ldf
+
+NOTE:
+SHUTDOWN SQL SERVER AND
+COPY ALL DATABASE FILES TO NEW LOCATION
+START SQL SERVER AND 
+DELETE ALL ORIGINAL DATABASE FILES
+*/
+
+*/
+
+
+/*OLD LOCATION*/
+--master	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\master.mdf
+--mastlog	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\mastlog.ldf
+
+--tempdev	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\tempdb.mdf
+--templog	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\templog.ldf
+
+--modeldev	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\model.mdf
+--modellog	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\modellog.ldf
+
+--MSDBData	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\MSDBData.mdf
+--MSDBLog	C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\DATA\MSDBLog.ldf
+
+/*NEW LOCATION*/
+--MASTER	s:\mssql\data\MASTER.MDF
+--MASTLOG	s:\mssql\data\MASTLOG.LDF
+
+--TEMPDEV	t:\mssql\data\TEMPDB.MDF
+--TEMPLOG	t:\mssql\data\TEMPDB.LDF
+
+--MODELDEV	s:\mssql\data\MODEL.MDF
+--MODELLOG	s:\mssql\data\MODELLOG.LDF
+
+--msdbdATA	s:\mssql\data\msdbdATA.MDF
+--msdblOG	s:\mssql\data\msdblOG.LDF

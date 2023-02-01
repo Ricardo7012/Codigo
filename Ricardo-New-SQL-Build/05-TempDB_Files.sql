@@ -1,0 +1,27 @@
+--CHOOSE YOUR NUMBER OF FILES
+USE [master]
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev02', FILENAME = N'T:\TempDB\tempdev02.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev03', FILENAME = N'T:\TempDB\tempdev03.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev04', FILENAME = N'T:\TempDB\tempdev04.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev05', FILENAME = N'T:\TempDB\tempdev05.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev06', FILENAME = N'T:\TempDB\tempdev06.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev07', FILENAME = N'T:\TempDB\tempdev07.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+ALTER DATABASE [tempdb] ADD FILE ( NAME = N'tempdev08', FILENAME = N'T:\TempDB\tempdev08.ndf' , SIZE = 10GB , FILEGROWTH = 128MB)
+GO
+
+
+
+USE [master]
+GO
+ALTER DATABASE [tempdb] MODIFY FILE ( NAME = N'tempdev', SIZE = 10GB , FILEGROWTH = 128MB )
+GO
+ALTER DATABASE [tempdb] MODIFY FILE ( NAME = N'templog', SIZE = 20GB , FILEGROWTH = 128MB )
+GO
+

@@ -1,0 +1,5 @@
+Avg Fragmentation in % value		Corrective statement
+
+> 5% and < = 30%			ALTER INDEX REORGANIZE
+
+> 30%					ALTER INDEX REBUILD WITH (ONLINE = ON)*

@@ -1,0 +1,34 @@
+USE [master]
+go
+ALTER DATABASE [Medimart] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
+go
+PRINT '[Medimart] SET SINGLE_USER WITH ROLLBACK IMMEDIATE'
+GO
+
+RESTORE DATABASE [Medimart] FROM  DISK = N'E:\VMDB2.Medimart.bak' 
+WITH  
+FILE = 1,  
+MOVE N'Medimart' TO N'E:\Data\Medimart.mdf',  
+MOVE N'Medimart_log' TO N'E:\Log\Medimart_log.ldf',  
+NOUNLOAD,  
+REPLACE,  
+STATS = 5
+ALTER DATABASE [Medimart] SET MULTI_USER
+GO
+PRINT 'RESTORE COMPLETED'
+
+USE [master]
+GO
+ALTER DATABASE [Medimart] MODIFY FILE ( NAME = N'Medimart', SIZE = 260GB , FILEGROWTH = 1GB )
+GO
+ALTER DATABASE [Medimart] MODIFY FILE ( NAME = N'Medimart_log', SIZE = 10GB , MAXSIZE = 100GB , FILEGROWTH = 1GB )
+GO
+PRINT 'ALTER COMPLETED'
+
+USE [Medimart]
+GO
+ALTER AUTHORIZATION ON DATABASE::[Medimart] TO [medimart_sa]
+GO
+PRINT 'ALTER AUTHORIZATION ON DATABASE::[Medimart] TO [medimart_sa] COMPLETED'
+
+PRINT 'You are now ready to run the load medimart job'

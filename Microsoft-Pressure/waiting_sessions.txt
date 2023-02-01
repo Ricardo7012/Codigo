@@ -1,0 +1,9 @@
+--Run the two below queries together, this will provide info regarding the waiting tasks, what they are waiting on and what is blocking them. 
+
+select a.*, e.text AS [SQL Text], b.resource_description as addition_resource_info, c.host_name, c.program_name, c.login_name, c.nt_user_name, c.status, c.database_id from sys.dm_os_waiting_tasks a inner join sys.dm_tran_locks b 
+on a.resource_address = b.lock_owner_address inner join sys.dm_exec_sessions c on a.session_id=c.session_id inner join
+sys.dm_exec_connections AS d on a.session_id=d.session_id 
+CROSS APPLY (SELECT * FROM sys.dm_exec_sql_text(d.most_recent_sql_handle)) AS e
+where c.is_user_process=1;
+GO
+select * from sys.sysprocesses cross apply sys.dm_exec_sql_text(sql_handle);

@@ -1,0 +1,3033 @@
+From: "Saved by Internet Explorer 11"
+Subject: Database Server Capacity Report - IEHP Wiki
+Date: Thu, 7 Jan 2021 15:08:03 -0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_00A7_01D6E506.E53EC930"
+X-MimeOLE: Produced By Microsoft MimeOLE V10.0.10011.16506
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_00A7_01D6E506.E53EC930
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://iehpwiki.iehp.org/wiki/Database_Server_Capacity_Report
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den class=3Dclient-nojs dir=3Dltr><HEAD><META =
+content=3D"IE=3D7.0000"=20
+http-equiv=3D"X-UA-Compatible">
+<TITLE>Database Server Capacity Report - IEHP Wiki</TITLE>
+<META charset=3DUTF-8>
+<SCRIPT>document.documentElement.className =3D =
+document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, =
+"$1client-js$2" );</SCRIPT>
+
+<SCRIPT>(window.RLQ=3Dwindow.RLQ||[]).push(function(){mw.config.set({"wgC=
+anonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumb=
+er":0,"wgPageName":"Database_Server_Capacity_Report","wgTitle":"Database =
+Server Capacity =
+Report","wgCurRevisionId":14301,"wgRevisionId":14301,"wgArticleId":2997,"=
+wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":"Fe=
+rnandez-r@iehp.org","wgUserGroups":["sysop","*","user","autoconfirmed"],"=
+wgCategories":["Data Systems","Data Systems A-Z =
+Policy"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageConten=
+tModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformT=
+able":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","F=
+ebruary","March","April","May","June","July","August","September","Octobe=
+r","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr"=
+,"May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"D=
+atabase_Server_Capacity_Report","wgRelevantArticleId":2997,"wgRequestId":=
+"01dde3bd224dd61dd0be3c54","wgCSPNonce":false,"wgUserId":150,"wgUserEditC=
+ount":376,"wgUserRegistration":1573158503000,"wgUserNewMsgRevisionId":nul=
+l,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wg=
+RestrictionEdit":[],"wgRestrictionMove":[],"wgEchoInteractionLogging":fal=
+se,"wgEchoEventLoggingVersion":"1.12","wgVisualEditor":{"pageLanguageCode=
+":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en","usePageImages=
+":false,"usePageDescriptions":false},"wgWikiEditorEnabledModules":[],"wgV=
+isualEditorToolbarScrollOffset":0,"wgVisualEditorUnsupportedEditParams":[=
+"undo","undoafter","veswitched"],"wgEditSubmitButtonLabelPublish":false,"=
+wgEchoSeenTime":{"alert":"2020-05-28T18:30:51Z","notice":"2020-05-28T18:3=
+0:45Z"},"wgWikiId":"mediawiki"});mw.loader.state({"site.styles":"ready","=
+noscript":"ready","user.styles":"ready","user":"ready","user.options":"lo=
+ading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawi=
+ki.legacy.commonPrint":"ready","ext.echo.styles.badge":"ready","ext.echo.=
+badgeicons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"rea=
+dy","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"}=
+);mw.loader.implement("user.options@0o0mmy0",function($,jQuery,require,mo=
+dule){/*@nomin*/mw.user.options.set({"visualeditor-hidebetawelcome":"1","=
+visualeditor-editor":"visualeditor","nickname":"Ricardo","echo-subscripti=
+ons-email-edit-user-talk":1,"rcfilters-limit":"50","rcfilters-rc-collapse=
+d":0,"rcfilters-saved-queries":"{\"queries\":{},\"version\":\"2\"}","rcfi=
+lters-wl-collapsed":0,"rcfilters-wl-saved-queries":"{\"queries\":{},\"ver=
+sion\":\"2\"}","visualeditor-hideusered":"1"});=0A=
+});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,mo=
+dule){/*@nomin*/mw.user.tokens.set({"editToken":"9df1fb4b0fe6f93c24f57980=
+82e630975ff79453+\\","patrolToken":"b154a312a2e2b0a7a4468d6d0ef404965ff79=
+453+\\","watchToken":"92fa7163cd203571c426ede5b62ddc0b5ff79453+\\","csrfT=
+oken":"9df1fb4b0fe6f93c24f5798082e630975ff79453+\\"});=0A=
+});RLPAGEMODULES=3D["site","mediawiki.page.startup","mediawiki.user","med=
+iawiki.page.ready","mediawiki.searchSuggest","mediawiki.page.watch.ajax",=
+"ext.echo.init","ext.visualEditor.desktopArticleTarget.init","ext.visualE=
+ditor.targetLoader","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});<=
+/SCRIPT>
+<LINK rel=3Dstylesheet=20
+href=3D"https://iehpwiki.iehp.org/load.php?debug=3Dfalse&amp;lang=3Den&am=
+p;modules=3Dext.echo.badgeicons%7Cext.echo.styles.badge%7Cext.visualEdito=
+r.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7=
+Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=3Dstyles&amp=
+;skin=3Dvector">
+<SCRIPT=20
+src=3D"/load.php?debug=3Dfalse&amp;lang=3Den&amp;modules=3Dstartup&amp;on=
+ly=3Dscripts&amp;skin=3Dvector"=20
+async=3D""></SCRIPT>
+
+<META name=3DResourceLoaderDynamicStyles content=3D"">
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10240.18756"><LINK =
+title=3DEdit=20
+rel=3Dalternate type=3Dapplication/x-wiki=20
+href=3D"/index.php?title=3DDatabase_Server_Capacity_Report&amp;action=3De=
+dit"><LINK=20
+title=3DEdit rel=3Dedit=20
+href=3D"/index.php?title=3DDatabase_Server_Capacity_Report&amp;action=3De=
+dit"><LINK=20
+rel=3D"shortcut icon" href=3D"/favicon.ico"><LINK title=3D"IEHP Wiki =
+(en)" rel=3Dsearch=20
+type=3Dapplication/opensearchdescription+xml =
+href=3D"/opensearch_desc.php"><LINK=20
+rel=3DEditURI type=3Dapplication/rsd+xml=20
+href=3D"//iehpwiki.iehp.org/api.php?action=3Drsd"><LINK title=3D"IEHP =
+Wiki Atom feed"=20
+rel=3Dalternate type=3Dapplication/atom+xml=20
+href=3D"/index.php?title=3DSpecial:RecentChanges&amp;feed=3Datom"><!--[if=
+ lt IE 9]>
+<SCRIPT=20
+src=3D"/load.php?debug=3Dfalse&amp;lang=3Den&amp;modules=3Dhtml5shiv&amp;=
+only=3Dscripts&amp;skin=3Dvector&amp;sync=3D1"></SCRIPT>
+<![endif]-->
+<STYLE type=3Dtext/css>#turnkey-credit {
+	FONT-SIZE: 11px; FONT-FAMILY: =
+Tahoma,Sans,Arial,Helvetica,Verdana,sans-serif; TEXT-ALIGN: center
+}
+#turnkey-credit A {
+	TEXT-DECORATION: none
+}
+#turnkey-credit A:hover {
+	TEXT-DECORATION: underline
+}
+</STYLE>
+</HEAD>
+<BODY=20
+class=3D"mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject =
+page-Database_Server_Capacity_Report =
+rootpage-Database_Server_Capacity_Report skin-vector action-view">
+<DIV id=3Dmw-page-base class=3Dnoprint></DIV>
+<DIV id=3Dmw-head-base class=3Dnoprint></DIV>
+<DIV role=3Dmain id=3Dcontent class=3Dmw-body><A id=3Dtop></A>
+<DIV class=3D"mw-indicators mw-body-content"></DIV>
+<H1 lang=3Den id=3DfirstHeading class=3DfirstHeading>Database Server =
+Capacity=20
+Report</H1>
+<DIV id=3DbodyContent class=3Dmw-body-content>
+<DIV id=3DsiteSub class=3Dnoprint>From IEHP Wiki</DIV>
+<DIV id=3DcontentSub></DIV>
+<DIV id=3Djump-to-nav></DIV><A class=3Dmw-jump-link=20
+href=3D"https://iehpwiki.iehp.org/wiki/Database_Server_Capacity_Report#mw=
+-head">Jump=20
+to navigation</A> <A class=3Dmw-jump-link=20
+href=3D"https://iehpwiki.iehp.org/wiki/Database_Server_Capacity_Report#p-=
+search">Jump=20
+to search</A>=20
+<DIV lang=3Den id=3Dmw-content-text class=3Dmw-content-ltr dir=3Dltr>
+<DIV class=3Dmw-parser-output>
+<P><B>Summary:</B> </P>
+<P>The purpose of these reports is to allow the DBA=E2=80=99s to quickly =
+look over a=20
+report to give them a detailed overview of health of the DB servers =
+across the=20
+system. </P>
+<P>The report(s) contain LUN information, backup status, memory usage, =
+server=20
+configuration information. </P>
+<P>----------------------------------------------------------------------=
+-------------------------------------------------------------------------=
+-------------------------=20
+</P>
+<P><B>SSRS Reports Location(s):</B> </P>
+<P>There are server reports that utilize the information from the tables =
+
+populated by the below package. </P>
+<P>DBA Dashboard: http://titan/Reports/report/DBA/DBA%20Dashboard </P>
+<P>DBA Checklist: http://titan/Reports/report/DBA/DBA%20Checklist </P>
+<P>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; There are two=20
+sub-reports linked from the KPI=E2=80=99s in each of the above reports. =
+</P>
+<P><B>Power BI Report Location:</B> </P>
+<P>Deployment in process </P>
+<P>----------------------------------------------------------------------=
+-------------------------------------------------------------------------=
+-------------------------=20
+</P>
+<P><B>TFS Location:</B> $/DMI/DataManagement/SSIS/CMS SQL DB Server =
+Status/CMS=20
+SQL DB Server Status </P>
+<P>----------------------------------------------------------------------=
+-------------------------------------------------------------------------=
+-------------------------=20
+</P>
+<P><B>SSIS Package:</B> Get Server Information.dtsx.&nbsp; </P>
+<P>This package is responsible for populating the tables and views in=20
+Titan.DB_Admin with schema =3D Capacity </P>
+<P>----------------------------------------------------------------------=
+-------------------------------------------------------------------------=
+-------------------------=20
+</P>
+<P><B>SQL Agent Job and Frequency:</B> </P>
+<P>DBA - Get Server Stats =E2=80=93 Runs on Vega, once a day. </P>
+<P><B>SQL Tables and Views:</B> </P>
+<P><B>TABLES:</B> </P>
+<P>DB_Admin.[Capacity].[AvailablityGroups] &nbsp;=20
+DB_Admin.[Capacity].[ConfigValues] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+DB_Admin.[Capacity].[DatabaseAttr] </P>
+<P>DB_Admin.[Capacity].[DatabaseFileAttr] &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; DB_Admin.[Capacity].[DBA] &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+DB_Admin.[Capacity].[DBALog] </P>
+<P>DB_Admin.[Capacity].[ErrorLog] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+DB_Admin.[Capacity].[FileGroupSize] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp;&nbsp; DB_Admin.[Capacity].[JobFailures] </P>
+<P>DB_Admin.[Capacity].[LUNSizes] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;&nbsp;=20
+DB_Admin.[Capacity].[MinStatUpdate] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp;&nbsp; DB_Admin.[Capacity].[ServerAttr] </P>
+<P>DB_Admin.[Capacity].[TableStats] </P>
+<P><B>VIEWS:</B> </P>
+<P>DB_Admin.[Capacity].[vw_AG_Groups] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; =
+DB_Admin.[Capacity].[vw_DatabaseAttr]&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+DB_Admin.[Capacity].[vw_DatabaseFileAttr] </P>
+<P>DB_Admin.[Capacity].[vw_JobFailures] &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp;=20
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+DB_Admin.[Capacity].[vw_LUNInformation] </P><!-- =0A=
+NewPP limit report=0A=
+Cached time: 20210107133345=0A=
+Cache expiry: 86400=0A=
+Dynamic content: false=0A=
+CPU time usage: 0.008 seconds=0A=
+Real time usage: 0.014 seconds=0A=
+Preprocessor visited node count: 19/1000000=0A=
+Preprocessor generated node count: 124/1000000=0A=
+Post=E2=80=90expand include size: 0/2097152 bytes=0A=
+Template argument size: 0/2097152 bytes=0A=
+Highest expansion depth: 2/40=0A=
+Expensive parser function count: 0/100=0A=
+Unstrip recursion depth: 0/20=0A=
+Unstrip post=E2=80=90expand size: 766/5000000 bytes=0A=
+--><!--=0A=
+Transclusion expansion time report (%,ms,calls,template)=0A=
+100.00%    0.000      1 -total=0A=
+--><!-- Saved in parser cache with key =
+mediawiki:pcache:idhash:2997-0!canonical and timestamp 20210107133345 =
+and revision id 14301=0A=
+ --></DIV></DIV>
+<DIV class=3Dprintfooter>Retrieved from "<A dir=3Dltr=20
+href=3D"http://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capaci=
+ty_Report&amp;oldid=3D14301">http://iehpwiki.iehp.org/index.php?title=3DD=
+atabase_Server_Capacity_Report&amp;oldid=3D14301</A>"=20
+</DIV>
+<DIV id=3Dcatlinks class=3Dcatlinks data-mw=3D"interface">
+<DIV id=3Dmw-normal-catlinks class=3Dmw-normal-catlinks><A =
+title=3DSpecial:Categories=20
+href=3D"https://iehpwiki.iehp.org/wiki/Special:Categories">Categories</A>=
+:=20
+<UL>
+  <LI><A title=3D"Category:Data Systems"=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Data_Systems">Data=20
+  Systems</A></LI>
+  <LI><A title=3D"Category:Data Systems A-Z Policy (page does not =
+exist)"=20
+  class=3Dnew=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DCategory:Data_Systems=
+_A-Z_Policy&amp;action=3Dedit&amp;redlink=3D1">Data=20
+  Systems A-Z Policy</A></LI></UL></DIV></DIV>
+<DIV class=3DvisualClear></DIV></DIV></DIV>
+<DIV id=3Dmw-navigation>
+<H2>Navigation menu</H2>
+<DIV id=3Dmw-head>
+<DIV role=3Dnavigation id=3Dp-personal =
+aria-labelledby=3Dp-personal-label>
+<H3 id=3Dp-personal-label>Personal tools</H3>
+<UL>
+  <LI id=3Dpt-userpage><A title=3D"Your user page (page does not exist) =
+[.]"=20
+  class=3Dnew accessKey=3D.=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/User:Fernandez-r@iehp.org">Fernand=
+ez-r@iehp.org</A></LI>
+  <LI id=3Dpt-notifications-alert><A title=3D"Your alerts"=20
+  class=3D"mw-echo-notifications-badge mw-echo-notification-badge-nojs"=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Special:Notifications"=20
+  data-counter-text=3D"1" data-counter-num=3D"1">Alert (1)</A></LI>
+  <LI id=3Dpt-notifications-notice><A title=3D"Your notices"=20
+  class=3D"mw-echo-notifications-badge mw-echo-notification-badge-nojs"=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Special:Notifications"=20
+  data-counter-text=3D"2" data-counter-num=3D"2">Notices (2)</A></LI>
+  <LI id=3Dpt-mytalk><A title=3D"Your talk page (page does not exist) =
+[n]" class=3Dnew=20
+  accessKey=3Dn=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/User_talk:Fernandez-r@iehp.org">Ta=
+lk</A></LI>
+  <LI id=3Dpt-preferences><A title=3D"Your preferences"=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:Preferences">Preferences</=
+A></LI>
+  <LI id=3Dpt-watchlist><A=20
+  title=3D"A list of pages you are monitoring for changes [l]" =
+accessKey=3Dl=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:Watchlist">Watchlist</A></=
+LI>
+  <LI id=3Dpt-mycontris><A title=3D"A list of your contributions [y]" =
+accessKey=3Dy=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:Contributions/Fernandez-r@=
+iehp.org">Contributions</A></LI>
+  <LI id=3Dpt-logout><A title=3D"Log out"=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DSpecial:UserLogout&am=
+p;returnto=3DDatabase+Server+Capacity+Report">Log=20
+  out</A> </LI></UL></DIV>
+<DIV id=3Dleft-navigation>
+<DIV role=3Dnavigation id=3Dp-namespaces class=3DvectorTabs=20
+aria-labelledby=3Dp-namespaces-label>
+<H3 id=3Dp-namespaces-label>Namespaces</H3>
+<UL>
+  <LI id=3Dca-nstab-main class=3Dselected><SPAN><A title=3D"View the =
+content page [c]"=20
+  accessKey=3Dc=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Database_Server_Capacity_Report">P=
+age</A></SPAN></LI>
+  <LI id=3Dca-talk class=3Dnew><SPAN><A=20
+  title=3D"Discussion about the content page (page does not exist) [t]"=20
+  accessKey=3Dt=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DTalk:Database_Server_=
+Capacity_Report&amp;action=3Dedit&amp;redlink=3D1"=20
+  rel=3Ddiscussion>Discussion</A></SPAN> </LI></UL></DIV>
+<DIV role=3Dnavigation id=3Dp-variants class=3D"vectorMenu emptyPortlet" =
+
+aria-labelledby=3Dp-variants-label><INPUT class=3DvectorMenuCheckbox=20
+aria-labelledby=3Dp-variants-label type=3Dcheckbox>=20
+<H3 id=3Dp-variants-label><SPAN>Variants</SPAN> </H3>
+<DIV class=3Dmenu>
+<UL></UL></DIV></DIV></DIV>
+<DIV id=3Dright-navigation>
+<DIV role=3Dnavigation id=3Dp-views class=3DvectorTabs =
+aria-labelledby=3Dp-views-label>
+<H3 id=3Dp-views-label>Views</H3>
+<UL>
+  <LI id=3Dca-view class=3D"collapsible selected"><SPAN><A=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Database_Server_Capacity_Report">R=
+ead</A></SPAN></LI>
+  <LI id=3Dca-ve-edit class=3Dcollapsible><SPAN><A title=3D"Edit this =
+page [v]"=20
+  accessKey=3Dv=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;veaction=3Dedit">Edit</A></SPAN></LI>
+  <LI id=3Dca-edit class=3Dcollapsible><SPAN><A title=3D"Edit this page =
+[e]"=20
+  accessKey=3De=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Dedit">Edit=20
+  source</A></SPAN></LI>
+  <LI id=3Dca-history class=3Dcollapsible><SPAN><A=20
+  title=3D"Past revisions of this page [h]" accessKey=3Dh=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Dhistory">View=20
+  history</A></SPAN></LI>
+  <LI id=3Dca-watch class=3D"collapsible icon mw-watchlink"><SPAN><A=20
+  title=3D"Add this page to your watchlist [w]" accessKey=3Dw=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Dwatch"=20
+  data-mw=3D"interface">Watch</A></SPAN> </LI></UL></DIV>
+<DIV role=3Dnavigation id=3Dp-cactions class=3DvectorMenu=20
+aria-labelledby=3Dp-cactions-label><INPUT class=3DvectorMenuCheckbox=20
+aria-labelledby=3Dp-cactions-label type=3Dcheckbox>=20
+<H3 id=3Dp-cactions-label><SPAN>More</SPAN></H3>
+<DIV class=3Dmenu>
+<UL>
+  <LI id=3Dca-delete><A title=3D"Delete this page [d]" accessKey=3Dd=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Ddelete">Delete</A>
+  <LI id=3Dca-move><A title=3D"Move this page [m]" accessKey=3Dm=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:MovePage/Database_Server_C=
+apacity_Report">Move</A>
+  <LI id=3Dca-protect><A title=3D"Protect this page [=3D]" =
+accessKey=3D=3D=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Dprotect">Protect</A>=20
+  </LI></UL></DIV></DIV>
+<DIV role=3Dsearch id=3Dp-search>
+<H3><LABEL for=3DsearchInput>Search</LABEL> </H3>
+<FORM id=3Dsearchform action=3D/index.php>
+<DIV id=3DsimpleSearch><INPUT id=3DsearchInput title=3D"Search IEHP Wiki =
+[f]"=20
+accessKey=3Df name=3Dsearch placeholder=3D"Search IEHP Wiki"><INPUT =
+type=3Dhidden=20
+value=3DSpecial:Search name=3Dtitle><INPUT id=3Dmw-searchButton =
+title=3D"Search the pages for this text" class=3D"searchButton =
+mw-fallbackSearchButton" type=3Dsubmit value=3DSearch =
+name=3Dfulltext><INPUT id=3DsearchButton title=3D"Go to a page with this =
+exact name if it exists" class=3DsearchButton type=3Dsubmit value=3DGo =
+name=3Dgo>=20
+</DIV></FORM></DIV></DIV></DIV>
+<DIV id=3Dmw-panel>
+<DIV role=3Dbanner id=3Dp-logo><A title=3D"Visit the main page" =
+class=3Dmw-wiki-logo=20
+href=3D"https://iehpwiki.iehp.org/wiki/Main_Page"></A></DIV>
+<DIV role=3Dnavigation id=3Dp-navigation class=3Dportal=20
+aria-labelledby=3Dp-navigation-label>
+<H3 id=3Dp-navigation-label>Navigation</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Main-page><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Main_Page"=20
+  rel=3Dnofollow>Main page</A>
+  <LI id=3Dn-recentchanges><A title=3D"A list of recent changes in the =
+wiki [r]"=20
+  accessKey=3Dr =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:RecentChanges">Recent=20
+  changes</A>
+  <LI id=3Dn-All-Pages><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:AllPages"=20
+  rel=3Dnofollow>All Pages</A>
+  <LI id=3Dn-help><A title=3D"The place to find out"=20
+  =
+href=3D"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">=
+Help</A>=20
+  </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Data_Governance class=3Dportal=20
+aria-labelledby=3Dp-Data_Governance-label>
+<H3 id=3Dp-Data_Governance-label>Data Governance</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Committee-.26-Charter><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Data_Governance" =
+rel=3Dnofollow>Committee=20
+  &amp; Charter</A>
+  <LI id=3Dn-Industry-Terms><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Industry_Terms"=20
+  rel=3Dnofollow>Industry Terms</A>
+  <LI id=3Dn-Approved-Definitions><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:DG_Approved"=20
+  rel=3Dnofollow>Approved Definitions</A>
+  <LI id=3Dn-Ready-for-Approval><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:DG_Ready_for_Approval" =
+
+  rel=3Dnofollow>Ready for Approval</A>
+  <LI id=3Dn-Pending-Definitions><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:DG_Pending" =
+rel=3Dnofollow>Pending=20
+  Definitions</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Finance class=3Dportal =
+aria-labelledby=3Dp-Finance-label>
+<H3 id=3Dp-Finance-label>Finance</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Financial-Planning-.26-Analysis><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Finance" =
+rel=3Dnofollow>Financial=20
+  Planning &amp; Analysis</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Information_Technology class=3Dportal=20
+aria-labelledby=3Dp-Information_Technology-label>
+<H3 id=3Dp-Information_Technology-label>Information Technology</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Data-Integration><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Arch_Dev/Data_Integration"=20
+  rel=3Dnofollow>Data Integration</A>
+  <LI id=3Dn-Data-Science><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Data_Science" =
+rel=3Dnofollow>Data=20
+  Science</A>
+  <LI id=3Dn-Data-Systems><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Data_Systems" =
+rel=3Dnofollow>Data=20
+  Systems</A>
+  <LI id=3Dn-Data-Warehouse><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Data_Warehouse"=20
+  rel=3Dnofollow>Data Warehouse</A>
+  <LI id=3Dn-Encounter><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Encounter"=20
+  rel=3Dnofollow>Encounter</A>
+  <LI id=3Dn-PMO><A=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Project_Management_Office_(PMO)"=20
+  rel=3Dnofollow>PMO</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Health_Services class=3Dportal=20
+aria-labelledby=3Dp-Health_Services-label>
+<H3 id=3Dp-Health_Services-label>Health Services</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Care-Mgmt><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Care_Management"=20
+  rel=3Dnofollow>Care Mgmt</A>
+  <LI id=3Dn-Quality-Systems><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Quality_Systems" =
+rel=3Dnofollow>Quality=20
+  Systems</A>
+  <LI id=3Dn-Utilization-Mgmt><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Utilization_Management_(UM)"=20
+  rel=3Dnofollow>Utilization Mgmt</A>
+  <LI id=3Dn-Provider-Services><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Provider_Services"=20
+  rel=3Dnofollow>Provider Services</A>
+  <LI id=3Dn-Pharmacy><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Pharmacy"=20
+  rel=3Dnofollow>Pharmacy</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Network_Development class=3Dportal=20
+aria-labelledby=3Dp-Network_Development-label>
+<H3 id=3Dp-Network_Development-label>Network Development</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Contracts><A =
+href=3D"https://iehpwiki.iehp.org/wiki/Category:Contracts"=20
+  rel=3Dnofollow>Contracts</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-Operations class=3Dportal=20
+aria-labelledby=3Dp-Operations-label>
+<H3 id=3Dp-Operations-label>Operations</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dn-Call-Center><A=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Category:Call_Center" =
+rel=3Dnofollow>Call=20
+  Center</A>
+  <LI id=3Dn-CORE><A href=3D"https://iehpwiki.iehp.org/wiki/CORE"=20
+  rel=3Dnofollow>CORE</A> </LI></UL></DIV></DIV>
+<DIV role=3Dnavigation id=3Dp-tb class=3Dportal =
+aria-labelledby=3Dp-tb-label>
+<H3 id=3Dp-tb-label>Tools</H3>
+<DIV class=3Dbody>
+<UL>
+  <LI id=3Dt-whatlinkshere><A title=3D"A list of all wiki pages that =
+link here [j]"=20
+  accessKey=3Dj=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:WhatLinksHere/Database_Ser=
+ver_Capacity_Report">What=20
+  links here</A>
+  <LI id=3Dt-recentchangeslinked><A=20
+  title=3D"Recent changes in pages linked from this page [k]" =
+accessKey=3Dk=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/Special:RecentChangesLinked/Databa=
+se_Server_Capacity_Report"=20
+  rel=3Dnofollow>Related changes</A>
+  <LI id=3Dt-upload><A title=3D"Upload files [u]" accessKey=3Du=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Special:Upload">Upload file</A>
+  <LI id=3Dt-specialpages><A title=3D"A list of all special pages [q]" =
+accessKey=3Dq=20
+  href=3D"https://iehpwiki.iehp.org/wiki/Special:SpecialPages">Special =
+pages</A>
+  <LI id=3Dt-print><A title=3D"Printable version of this page [p]" =
+accessKey=3Dp=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;printable=3Dyes"=20
+  rel=3Dalternate>Printable version</A>
+  <LI id=3Dt-permalink><A title=3D"Permanent link to this revision of =
+the page"=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;oldid=3D14301">Permanent=20
+  link</A>
+  <LI id=3Dt-info><A title=3D"More information about this page"=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DDatabase_Server_Capac=
+ity_Report&amp;action=3Dinfo">Page=20
+  information</A>
+  <LI id=3Dt-cite><A title=3D"Information on how to cite this page"=20
+  =
+href=3D"https://iehpwiki.iehp.org/index.php?title=3DSpecial:CiteThisPage&=
+amp;page=3DDatabase_Server_Capacity_Report&amp;id=3D14301">Cite=20
+  this page</A> </LI></UL></DIV></DIV></DIV></DIV>
+<DIV role=3Dcontentinfo id=3Dfooter>
+<UL id=3Dfooter-info>
+  <LI id=3Dfooter-info-lastmod>This page was last edited on 1 November =
+2019, at=20
+  11:08. </LI></UL>
+<UL id=3Dfooter-places>
+  <LI id=3Dfooter-places-privacy><A title=3D"IEHP MediaWiki:Privacy =
+policy"=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/IEHP_MediaWiki:Privacy_policy">Pri=
+vacy=20
+  policy</A> </LI>
+  <LI id=3Dfooter-places-about><A title=3D"IEHP MediaWiki:About"=20
+  href=3D"https://iehpwiki.iehp.org/wiki/IEHP_MediaWiki:About">About =
+IEHP Wiki</A>=20
+  </LI>
+  <LI id=3Dfooter-places-disclaimer><A title=3D"IEHP MediaWiki:General =
+disclaimer"=20
+  =
+href=3D"https://iehpwiki.iehp.org/wiki/IEHP_MediaWiki:General_disclaimer"=
+>Disclaimers</A>=20
+  </LI></UL>
+<UL id=3Dfooter-icons class=3Dnoprint>
+  <LI id=3Dfooter-poweredbyico><A =
+href=3D"https://www.mediawiki.org/"><IMG=20
+  alt=3D"Powered by MediaWiki"=20
+  =
+src=3D"https://iehpwiki.iehp.org/resources/assets/poweredby_mediawiki_88x=
+31.png"=20
+  width=3D88 height=3D31=20
+  srcset=3D"/resources/assets/poweredby_mediawiki_132x47.png 1.5x, =
+/resources/assets/poweredby_mediawiki_176x62.png 2x"></A>=20
+  </LI></UL>
+<DIV style=3D"CLEAR: both"></DIV></DIV>
+<SCRIPT>(window.RLQ=3Dwindow.RLQ||[]).push(function(){mw.config.set({"wgP=
+ageParseReport":{"limitreport":{"cputime":"0.008","walltime":"0.014","ppv=
+isitednodes":{"value":19,"limit":1000000},"ppgeneratednodes":{"value":124=
+,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"te=
+mplateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value"=
+:2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-=
+depth":{"value":0,"limit":20},"unstrip-size":{"value":766,"limit":5000000=
+},"timingprofile":["100.00%    0.000      1 =
+-total"]},"cachereport":{"timestamp":"20210107133345","ttl":86400,"transi=
+entcontent":false}}});mw.config.set({"wgBackendResponseTime":63});});</SC=
+RIPT>
+
+<DIV id=3Dturnkey-credit>
+<DIV style=3D"CLEAR: both"><A=20
+href=3D"https://www.turnkeylinux.org/mediawiki">MediaWiki Appliance</A> =
+- Powered=20
+by <A href=3D"https://www.turnkeylinux.org/">TurnKey Linux</A>=20
+</DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_00A7_01D6E506.E53EC930
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://iehpwiki.iehp.org/resources/assets/poweredby_mediawiki_88x31.png
+
+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
+AAAAAElFTkSuQmCC
+
+------=_NextPart_000_00A7_01D6E506.E53EC930
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://iehpwiki.iehp.org/load.php?debug=false&lang=en&modules=ext.echo.badgeicons%7Cext.echo.styles.badge%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cskins.vector.styles&only=styles&skin=vector
+
+.oo-ui-icon-bell {
+	BACKGROUND-IMAGE: =
+url(/load.php?modules=3Dext.echo.badgeicons&image=3Dbell&format=3Drasteri=
+zed&lang=3Den&skin=3Dvector)
+}
+.oo-ui-icon-tray {
+	BACKGROUND-IMAGE: =
+url(/load.php?modules=3Dext.echo.badgeicons&image=3Dtray&format=3Drasteri=
+zed&lang=3Den&skin=3Dvector)
+}
+#pt-notifications-alert .mw-echo-notifications-badge {
+	BOX-SIZING: border-box; CURSOR: pointer; TEXT-DECORATION: none; HEIGHT: =
+20px; WIDTH: 20px; POSITION: relative; MARGIN: 0px 2px; DISPLAY: block; =
+LINE-HEIGHT: normal; TOP: -1005px; -webkit-box-sizing: border-box; =
+-moz-box-sizing: border-box
+}
+#pt-notifications-notice .mw-echo-notifications-badge {
+	BOX-SIZING: border-box; CURSOR: pointer; TEXT-DECORATION: none; HEIGHT: =
+20px; WIDTH: 20px; POSITION: relative; MARGIN: 0px 2px; DISPLAY: block; =
+LINE-HEIGHT: normal; TOP: -1005px; -webkit-box-sizing: border-box; =
+-moz-box-sizing: border-box
+}
+#pt-notifications-alert .mw-echo-notifications-badge:hover {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-notice .mw-echo-notifications-badge:hover {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-alert .mw-echo-notifications-badge:active {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-notice .mw-echo-notifications-badge:active {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-alert .mw-echo-notifications-badge:focus {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-notice .mw-echo-notifications-badge:focus {
+	OUTLINE-WIDTH: 0px; -moz-outline-style: 0
+}
+#pt-notifications-alert .mw-echo-notifications-badge-dimmed {
+	opacity: 0.4
+}
+#pt-notifications-notice .mw-echo-notifications-badge-dimmed {
+	opacity: 0.4
+}
+#pt-notifications-alert .mw-echo-notifications-badge:before {
+	CURSOR: pointer; HEIGHT: 100%; WIDTH: 100%; BACKGROUND-REPEAT: =
+no-repeat; POSITION: absolute; CONTENT: ''; LEFT: 0px; DISPLAY: =
+inline-block; TOP: 1000px; opacity: 0.87
+}
+#pt-notifications-notice .mw-echo-notifications-badge:before {
+	CURSOR: pointer; HEIGHT: 100%; WIDTH: 100%; BACKGROUND-REPEAT: =
+no-repeat; POSITION: absolute; CONTENT: ''; LEFT: 0px; DISPLAY: =
+inline-block; TOP: 1000px; opacity: 0.87
+}
+#pt-notifications-alert .mw-echo-notifications-badge:after {
+	FONT-SIZE: 0.9em; CURSOR: pointer; BORDER-TOP: #fff 1px solid; =
+BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid; POSITION: =
+absolute; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; CONTENT: attr(data-counter-text); PADDING-LEFT: 0.3em; =
+LEFT: 55%; BORDER-LEFT: #fff 1px solid; DISPLAY: inline-block; TOP: =
+1009px; PADDING-RIGHT: 0.3em; BACKGROUND-COLOR: #72777d; border-radius: =
+2px
+}
+#pt-notifications-notice .mw-echo-notifications-badge:after {
+	FONT-SIZE: 0.9em; CURSOR: pointer; BORDER-TOP: #fff 1px solid; =
+BORDER-RIGHT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid; POSITION: =
+absolute; FONT-WEIGHT: bold; COLOR: #fff; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; CONTENT: attr(data-counter-text); PADDING-LEFT: 0.3em; =
+LEFT: 55%; BORDER-LEFT: #fff 1px solid; DISPLAY: inline-block; TOP: =
+1009px; PADDING-RIGHT: 0.3em; BACKGROUND-COLOR: #72777d; border-radius: =
+2px
+}
+#pt-notifications-alert =
+.mw-echo-notifications-badge-long-label.mw-echo-notifications-badge {
+	MARGIN-RIGHT: 0.5em
+}
+#pt-notifications-notice =
+.mw-echo-notifications-badge-long-label.mw-echo-notifications-badge {
+	MARGIN-RIGHT: 0.5em
+}
+#pt-notifications-alert =
+.mw-echo-notifications-badge-long-label.mw-echo-notifications-badge:after=
+ {
+	LEFT: 35%
+}
+#pt-notifications-notice =
+.mw-echo-notifications-badge-long-label.mw-echo-notifications-badge:after=
+ {
+	LEFT: 35%
+}
+#pt-notifications-alert =
+.mw-echo-notifications-badge-all-read.mw-echo-notifications-badge:before =
+{
+	opacity: 0.51
+}
+#pt-notifications-notice =
+.mw-echo-notifications-badge-all-read.mw-echo-notifications-badge:before =
+{
+	opacity: 0.51
+}
+#pt-notifications-alert =
+.mw-echo-notifications-badge-all-read.mw-echo-notifications-badge:after =
+{
+	VISIBILITY: hidden
+}
+#pt-notifications-notice =
+.mw-echo-notifications-badge-all-read.mw-echo-notifications-badge:after =
+{
+	VISIBILITY: hidden
+}
+#pt-notifications-alert .mw-echo-notifications-badge:before {
+	BACKGROUND-IMAGE: url(data:image/svg+xml,%3Csvg =
+xmlns=3D%22http://www.w3.org/2000/svg%22 width=3D%2220%22 =
+height=3D%2220%22 viewBox=3D%220 0 20 20%22%3E %3Ctitle%3E bell =
+%3C/title%3E %3Cpath d=3D%22M16 7a5.38 5.38 0 0 0-4.46-4.85C11.6 1.46 =
+11.53 0 10 0S8.4 1.46 8.46 2.15A5.38 5.38 0 0 0 4 7v6l-2 =
+2v1h16v-1l-2-2zm-6 13a3 3 0 0 0 3-3H7a3 3 0 0 0 3 3z%22/%3E %3C/svg%3E)
+}
+#pt-notifications-notice .mw-echo-notifications-badge:before {
+	BACKGROUND-IMAGE: url(data:image/svg+xml,%3Csvg =
+xmlns=3D%22http://www.w3.org/2000/svg%22 width=3D%2220%22 =
+height=3D%2220%22 viewBox=3D%220 0 20 20%22%3E %3Ctitle%3E tray =
+%3C/title%3E %3Cpath d=3D%22M17 1H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 =
+2 0 0 0 2-2V3a2 2 0 0 0-2-2zm0 12h-4l-1 2H8l-1-2H3V3h14z%22/%3E =
+%3C/svg%3E)
+}
+#pt-notifications-alert =
+.oo-ui-flaggedElement-unseen.mw-echo-notifications-badge:after {
+	BACKGROUND-COLOR: #dd3333
+}
+#pt-notifications-alert =
+.mw-echo-unseen-notifications.mw-echo-notifications-badge:after {
+	BACKGROUND-COLOR: #dd3333
+}
+#pt-notifications-notice =
+.oo-ui-flaggedElement-unseen.mw-echo-notifications-badge:after {
+	BACKGROUND-COLOR: #3366cc
+}
+#pt-notifications-notice =
+.mw-echo-unseen-notifications.mw-echo-notifications-badge:after {
+	BACKGROUND-COLOR: #3366cc
+}
+#p-personal #pt-notifications-alert {
+	MARGIN-RIGHT: 0.4em
+}
+#p-personal #pt-notifications-notice {
+	MARGIN-RIGHT: 0.4em
+}
+.client-nojs #ca-ve-edit {
+	DISPLAY: none
+}
+.client-nojs .mw-editsection-divider {
+	DISPLAY: none
+}
+.client-nojs .mw-editsection-visualeditor {
+	DISPLAY: none
+}
+.ve-not-available #ca-ve-edit {
+	DISPLAY: none
+}
+.ve-not-available .mw-editsection-divider {
+	DISPLAY: none
+}
+.ve-not-available .mw-editsection-visualeditor {
+	DISPLAY: none
+}
+UNKNOWN {
+	COLOR: #54595d; MARGIN-RIGHT: 0.25em
+}
+UNKNOWN {
+	COLOR: #54595d; MARGIN-LEFT: 0.25em
+}
+
+@media Print   =20
+{
+.noprint {
+	DISPLAY: none
+}
+.catlinks {
+	DISPLAY: none
+}
+.magnify {
+	DISPLAY: none
+}
+.mw-cite-backlink {
+	DISPLAY: none
+}
+.mw-editsection {
+	DISPLAY: none
+}
+.mw-editsection-like {
+	DISPLAY: none
+}
+.mw-hidden-catlinks {
+	DISPLAY: none
+}
+.mw-indicators {
+	DISPLAY: none
+}
+.mw-redirectedfrom {
+	DISPLAY: none
+}
+.patrollink {
+	DISPLAY: none
+}
+.usermessage {
+	DISPLAY: none
+}
+#column-one {
+	DISPLAY: none
+}
+#footer-places {
+	DISPLAY: none
+}
+#mw-navigation {
+	DISPLAY: none
+}
+#siteNotice {
+	DISPLAY: none
+}
+#f-poweredbyico {
+	DISPLAY: none
+}
+#f-copyrightico {
+	DISPLAY: none
+}
+LI#about {
+	DISPLAY: none
+}
+LI#disclaimer {
+	DISPLAY: none
+}
+LI#mobileview {
+	DISPLAY: none
+}
+LI#privacy {
+	DISPLAY: none
+}
+BODY {
+	BACKGROUND: #fff; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px =
+!important; PADDING-TOP: 0px !important; PADDING-LEFT: 0px !important; =
+PADDING-RIGHT: 0px !important
+}
+A {
+	TEXT-DECORATION: none !important; COLOR:  !important
+}
+A.external {
+	TEXT-DECORATION: none !important; COLOR:  !important
+}
+A.new {
+	TEXT-DECORATION: none !important; COLOR:  !important
+}
+A.stub {
+	TEXT-DECORATION: none !important; COLOR:  !important
+}
+.mw-parser-output A.text.external:after {
+	WORD-WRAP: break-word; WORD-BREAK: break-all; CONTENT: ' (' attr(href) =
+')'
+}
+.mw-parser-output A.autonumber.external:after {
+	WORD-WRAP: break-word; WORD-BREAK: break-all; CONTENT: ' (' attr(href) =
+')'
+}
+.mw-parser-output A[href^=3D'//'].text.external:after {
+	CONTENT: ' (https:' attr(href) ')'
+}
+.mw-parser-output A[href^=3D'//'].autonumber.external:after {
+	CONTENT: ' (https:' attr(href) ')'
+}
+DT {
+	FONT-WEIGHT: bold
+}
+H1 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+H2 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+H3 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+H4 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+H5 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+H6 {
+	PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; FONT-WEIGHT: bold
+}
+P {
+	ORPHANS: 3; WIDOWS: 3; MARGIN: 1em 0px; LINE-HEIGHT: 1.2
+}
+IMG {
+	PAGE-BREAK-INSIDE: avoid
+}
+figure {
+	PAGE-BREAK-INSIDE: avoid
+}
+.wikitable {
+	PAGE-BREAK-INSIDE: avoid
+}
+.thumb {
+	PAGE-BREAK-INSIDE: avoid
+}
+IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: =
+middle; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+PRE {
+	FONT-SIZE: 8pt; WORD-WRAP: break-word; BORDER-TOP: #000 1pt dashed; =
+BORDER-RIGHT: #000 1pt dashed; BACKGROUND: #fff; WHITE-SPACE: pre-wrap; =
+BORDER-BOTTOM: #000 1pt dashed; COLOR: #000; PADDING-BOTTOM: 1em; =
+PADDING-TOP: 1em; PADDING-LEFT: 0px; BORDER-LEFT: #000 1pt dashed; =
+PADDING-RIGHT: 0px
+}
+.mw-code {
+	FONT-SIZE: 8pt; WORD-WRAP: break-word; BORDER-TOP: #000 1pt dashed; =
+BORDER-RIGHT: #000 1pt dashed; BACKGROUND: #fff; WHITE-SPACE: pre-wrap; =
+BORDER-BOTTOM: #000 1pt dashed; COLOR: #000; PADDING-BOTTOM: 1em; =
+PADDING-TOP: 1em; PADDING-LEFT: 0px; BORDER-LEFT: #000 1pt dashed; =
+PADDING-RIGHT: 0px
+}
+SUP {
+	LINE-HEIGHT: 1
+}
+SUB {
+	LINE-HEIGHT: 1
+}
+UL {
+	LIST-STYLE-TYPE: square
+}
+#globalWrapper {
+	WIDTH: 100% !important; MIN-WIDTH: 0px !important
+}
+.mw-body {
+	BORDER-LEFT-WIDTH: 0px !important; BORDER-RIGHT-WIDTH: 0px !important; =
+BACKGROUND: #fff; BORDER-BOTTOM-WIDTH: 0px !important; COLOR: #000; =
+PADDING-BOTTOM: 0px !important; DIRECTION: ltr; PADDING-TOP: 0px =
+!important; PADDING-LEFT: 0px !important; MARGIN: 0px; PADDING-RIGHT: =
+0px !important; BORDER-TOP-WIDTH: 0px !important
+}
+#column-content {
+	MARGIN: 0px
+}
+#column-content .mw-body {
+	PADDING-BOTTOM: 1em; PADDING-TOP: 1em; PADDING-LEFT: 1em; MARGIN: 0px; =
+PADDING-RIGHT: 1em
+}
+.toc {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; =
+BORDER-BOTTOM: #aaa 1pt solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; =
+PADDING-LEFT: 5px; BORDER-LEFT: #aaa 1pt solid; DISPLAY: table; =
+PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f9f9f9
+}
+.tocnumber {
+	DISPLAY: table-cell
+}
+.toctext {
+	DISPLAY: table-cell
+}
+.tocnumber {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em
+}
+.mw-content-ltr .tocnumber {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em
+}
+.mw-content-rtl .tocnumber {
+	PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px
+}
+TABLE.floatright {
+	POSITION: relative; FLOAT: right; CLEAR: right
+}
+DIV.floatright {
+	POSITION: relative; FLOAT: right; CLEAR: right
+}
+DIV.tright {
+	POSITION: relative; FLOAT: right; CLEAR: right
+}
+TABLE.floatleft {
+	POSITION: relative; FLOAT: left; CLEAR: left
+}
+DIV.floatleft {
+	POSITION: relative; FLOAT: left; CLEAR: left
+}
+DIV.tleft {
+	POSITION: relative; FLOAT: left; CLEAR: left
+}
+DIV.tleft {
+	MARGIN: 0.5em 1.4em 1.3em 0px
+}
+DIV.tright {
+	MARGIN: 0.5em 0px 1.3em 1.4em
+}
+TABLE.floatright {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 0px 0px 0.5em 0.5em; BORDER-TOP-WIDTH: 0px
+}
+DIV.floatright {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 0px 0px 0.5em 0.5em; BORDER-TOP-WIDTH: 0px
+}
+TABLE.floatleft {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 0px 0.5em 0.5em 0px; BORDER-TOP-WIDTH: 0px
+}
+DIV.floatleft {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 0px 0.5em 0.5em 0px; BORDER-TOP-WIDTH: 0px
+}
+.center {
+	TEXT-ALIGN: center
+}
+DIV.thumb {
+	WIDTH: auto; BACKGROUND-COLOR: transparent
+}
+DIV.thumb A {
+	BORDER-BOTTOM-WIDTH: 0px
+}
+DIV.thumbinner {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10pt; OVERFLOW: hidden; =
+BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MIN-WIDTH: 100px; =
+COLOR: #666; PADDING-BOTTOM: 5px; TEXT-ALIGN: center; PADDING-TOP: 5px; =
+PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP-WIDTH: 0px; =
+BACKGROUND-COLOR: #fff; border-radius: 2px
+}
+HTML .thumbcaption {
+	PADDING-BOTTOM: 3px; TEXT-ALIGN: left; PADDING-TOP: 3px; PADDING-LEFT: =
+3px; LINE-HEIGHT: 1.4; PADDING-RIGHT: 3px
+}
+IMG.thumbborder {
+	BORDER-TOP: #ddd 1pt solid; BORDER-RIGHT: #ddd 1pt solid; =
+BORDER-BOTTOM: #ddd 1pt solid; BORDER-LEFT: #ddd 1pt solid
+}
+TABLE.wikitable {
+	FONT-SIZE: 10pt; BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt =
+solid; BACKGROUND: #fff; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #aaa =
+1pt solid; BORDER-LEFT: #aaa 1pt solid; MARGIN: 1em 0px
+}
+.mw_metadata {
+	FONT-SIZE: 10pt; BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt =
+solid; BACKGROUND: #fff; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #aaa =
+1pt solid; BORDER-LEFT: #aaa 1pt solid; MARGIN: 1em 0px
+}
+TABLE.wikitable > CAPTION {
+	FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: =
+5px; PADDING-RIGHT: 5px
+}
+.mw_metadata CAPTION {
+	FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: =
+5px; PADDING-RIGHT: 5px
+}
+TABLE.wikitable > TR > TH {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+TABLE.wikitable > TR > TD {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+TABLE.wikitable > * > TR > TH {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+TABLE.wikitable > * > TR > TD {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+.mw_metadata TH {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+.mw_metadata TD {
+	BORDER-TOP: #aaa 1pt solid; BORDER-RIGHT: #aaa 1pt solid; BACKGROUND: =
+#fff; BORDER-BOTTOM: #aaa 1pt solid; COLOR: #000 !important; =
+PADDING-BOTTOM: 0.4em; PADDING-TOP: 0.4em; PADDING-LEFT: 0.6em; =
+BORDER-LEFT: #aaa 1pt solid; PADDING-RIGHT: 0.6em
+}
+TABLE.wikitable > TR > TH {
+	TEXT-ALIGN: center
+}
+TABLE.wikitable > * > TR > TH {
+	TEXT-ALIGN: center
+}
+.mw_metadata TH {
+	TEXT-ALIGN: center
+}
+TABLE.listing {
+	BORDER-TOP: #000 1pt solid; BORDER-RIGHT: #000 1pt solid; =
+BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #000 1pt solid; BORDER-LEFT: =
+#000 1pt solid
+}
+TABLE.listing TD {
+	BORDER-TOP: #000 1pt solid; BORDER-RIGHT: #000 1pt solid; =
+BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #000 1pt solid; BORDER-LEFT: =
+#000 1pt solid
+}
+.catlinks UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; DISPLAY: inline; =
+PADDING-RIGHT: 0px
+}
+.catlinks LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0.4em; =
+BORDER-LEFT: #aaa 1pt solid; MARGIN: 0.1em 0px; DISPLAY: inline-block; =
+LINE-HEIGHT: 1.15; PADDING-RIGHT: 0.4em
+}
+.catlinks LI:first-child {
+	BORDER-LEFT-WIDTH: 0px; PADDING-LEFT: 0.2em
+}
+.printfooter {
+	PADDING-BOTTOM: 1em; PADDING-TOP: 1em; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+#footer {
+	BORDER-TOP: #aaa 1pt solid; BACKGROUND: #fff; MARGIN-TOP: 1em; COLOR: =
+#000; DIRECTION: ltr; PADDING-TOP: 5px
+}
+
+}
+
+@media Screen   =20
+{
+.mw-content-ltr {
+	DIRECTION: ltr
+}
+.mw-content-rtl {
+	DIRECTION: rtl
+}
+.sitedir-ltr TEXTAREA {
+	DIRECTION: ltr
+}
+.sitedir-ltr INPUT {
+	DIRECTION: ltr
+}
+.sitedir-rtl TEXTAREA {
+	DIRECTION: rtl
+}
+.sitedir-rtl INPUT {
+	DIRECTION: rtl
+}
+.mw-userlink {
+	unicode-bidi: embed
+}
+mark {
+	COLOR: #000; BACKGROUND-COLOR: #ff0
+}
+WBR {
+	DISPLAY: inline-block
+}
+INPUT[type=3D'submit'] {
+	DIRECTION: ltr
+}
+INPUT[type=3D'button'] {
+	DIRECTION: ltr
+}
+INPUT[type=3D'reset'] {
+	DIRECTION: ltr
+}
+INPUT[type=3D'file'] {
+	DIRECTION: ltr
+}
+TEXTAREA[dir=3D'ltr'] {
+	DIRECTION: ltr
+}
+INPUT[dir=3D'ltr'] {
+	DIRECTION: ltr
+}
+TEXTAREA[dir=3D'rtl'] {
+	DIRECTION: rtl
+}
+INPUT[dir=3D'rtl'] {
+	DIRECTION: rtl
+}
+ABBR[title] {
+	CURSOR: help; BORDER-BOTTOM: 1px dotted
+}
+[title].explain {
+	CURSOR: help; BORDER-BOTTOM: 1px dotted
+}
+SPAN.comment {
+	FONT-STYLE: italic
+}
+#editform {
+	CLEAR: both
+}
+#toolbar {
+	CLEAR: both
+}
+#wpTextbox1 {
+	CLEAR: both
+}
+#toolbar {
+	HEIGHT: 22px
+}
+.mw-underline-always A {
+	TEXT-DECORATION: underline
+}
+.mw-underline-never A {
+	TEXT-DECORATION: none
+}
+LI SPAN.deleted {
+	TEXT-DECORATION: line-through; COLOR: #72777d; FONT-STYLE: italic
+}
+SPAN.history-deleted {
+	TEXT-DECORATION: line-through; COLOR: #72777d; FONT-STYLE: italic
+}
+.not-patrolled {
+	BACKGROUND-COLOR: #ffa
+}
+.unpatrolled {
+	FONT-WEIGHT: bold; COLOR: #d33
+}
+DIV.patrollink {
+	FONT-SIZE: 75%; TEXT-ALIGN: right
+}
+TD.mw-label {
+	VERTICAL-ALIGN: middle; TEXT-ALIGN: right
+}
+TD.mw-input {
+	TEXT-ALIGN: left
+}
+TD.mw-submit {
+	WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.mw-input-with-label {
+	WHITE-SPACE: nowrap; DISPLAY: inline-block
+}
+.mw-content-ltr .thumbcaption {
+	TEXT-ALIGN: left
+}
+.mw-content-ltr .magnify {
+	FLOAT: right
+}
+.mw-content-rtl .thumbcaption {
+	TEXT-ALIGN: right
+}
+.mw-content-rtl .magnify {
+	FLOAT: left
+}
+#catlinks {
+	TEXT-ALIGN: left
+}
+.catlinks UL {
+	LIST-STYLE-TYPE: none; VERTICAL-ALIGN: middle; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; MARGIN: =
+0px; DISPLAY: inline; PADDING-RIGHT: 0px
+}
+.catlinks LI {
+	ZOOM: 1; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0.5em; =
+BORDER-LEFT: #a2a9b1 1px solid; MARGIN: 0.12em 0px; DISPLAY: inline; =
+LINE-HEIGHT: 1.25em; PADDING-RIGHT: 0.5em
+}
+.catlinks LI:first-child {
+	BORDER-LEFT-WIDTH: 0px; PADDING-LEFT: 0.25em
+}
+.catlinks LI A.mw-redirect {
+	FONT-STYLE: italic
+}
+.mw-hidden-cats-hidden {
+	DISPLAY: none
+}
+.catlinks-allhidden {
+	DISPLAY: none
+}
+P.mw-protect-editreasons {
+	FONT-SIZE: 90%; TEXT-ALIGN: right
+}
+P.mw-filedelete-editreasons {
+	FONT-SIZE: 90%; TEXT-ALIGN: right
+}
+P.mw-delete-editreasons {
+	FONT-SIZE: 90%; TEXT-ALIGN: right
+}
+.autocomment {
+	COLOR: #72777d
+}
+.newpage {
+	FONT-WEIGHT: bold
+}
+.minoredit {
+	FONT-WEIGHT: bold
+}
+.botedit {
+	FONT-WEIGHT: bold
+}
+DIV.mw-warning-with-logexcerpt {
+	MARGIN-BOTTOM: 3px; BORDER-TOP: #2a4b8d 2px solid; BORDER-RIGHT: =
+#2a4b8d 2px solid; BORDER-BOTTOM: #2a4b8d 2px solid; PADDING-BOTTOM: =
+3px; PADDING-TOP: 3px; PADDING-LEFT: 3px; CLEAR: both; BORDER-LEFT: =
+#2a4b8d 2px solid; PADDING-RIGHT: 3px
+}
+DIV.mw-warning-with-logexcerpt UL LI {
+	FONT-SIZE: 90%
+}
+SPAN.mw-revdelundel-link {
+	FONT-SIZE: 90%
+}
+STRONG.mw-revdelundel-link {
+	FONT-SIZE: 90%
+}
+SPAN.mw-revdelundel-hidden {
+	VISIBILITY: hidden
+}
+INPUT.mw-revdelundel-hidden {
+	VISIBILITY: hidden
+}
+TD.mw-revdel-checkbox {
+	TEXT-ALIGN: center; PADDING-RIGHT: 10px
+}
+TH.mw-revdel-checkbox {
+	TEXT-ALIGN: center; PADDING-RIGHT: 10px
+}
+A.new {
+	COLOR: #ba0000
+}
+.plainlinks A.external {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px =
+!important; PADDING-TOP: 0px !important; PADDING-LEFT: 0px !important; =
+PADDING-RIGHT: 0px !important
+}
+.rtl A.free.external {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+.rtl A.autonumber.external {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+TABLE.wikitable {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #a2a9b1 1px solid; COLOR: =
+#222; BORDER-LEFT: #a2a9b1 1px solid; MARGIN: 1em 0px; BACKGROUND-COLOR: =
+#f8f9fa
+}
+TABLE.wikitable > TR > TH {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0.2em; PADDING-TOP: =
+0.2em; PADDING-LEFT: 0.4em; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 0.4em
+}
+TABLE.wikitable > TR > TD {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0.2em; PADDING-TOP: =
+0.2em; PADDING-LEFT: 0.4em; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 0.4em
+}
+TABLE.wikitable > * > TR > TH {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0.2em; PADDING-TOP: =
+0.2em; PADDING-LEFT: 0.4em; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 0.4em
+}
+TABLE.wikitable > * > TR > TD {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0.2em; PADDING-TOP: =
+0.2em; PADDING-LEFT: 0.4em; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 0.4em
+}
+TABLE.wikitable > TR > TH {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #eaecf0
+}
+TABLE.wikitable > * > TR > TH {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #eaecf0
+}
+TABLE.wikitable > CAPTION {
+	FONT-WEIGHT: bold
+}
+.error {
+	FONT-SIZE: larger
+}
+.warning {
+	FONT-SIZE: larger
+}
+.success {
+	FONT-SIZE: larger
+}
+.error {
+	COLOR: #d33
+}
+.warning {
+	COLOR: #705000
+}
+.success {
+	COLOR: #009000
+}
+.errorbox {
+	MARGIN-BOTTOM: 1em; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; =
+BORDER-BOTTOM: 1px solid; ZOOM: 1; PADDING-BOTTOM: 0.5em; PADDING-TOP: =
+0.5em; PADDING-LEFT: 1em; BORDER-LEFT: 1px solid; DISPLAY: inline; =
+PADDING-RIGHT: 1em
+}
+.warningbox {
+	MARGIN-BOTTOM: 1em; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; =
+BORDER-BOTTOM: 1px solid; ZOOM: 1; PADDING-BOTTOM: 0.5em; PADDING-TOP: =
+0.5em; PADDING-LEFT: 1em; BORDER-LEFT: 1px solid; DISPLAY: inline; =
+PADDING-RIGHT: 1em
+}
+.successbox {
+	MARGIN-BOTTOM: 1em; BORDER-TOP: 1px solid; BORDER-RIGHT: 1px solid; =
+BORDER-BOTTOM: 1px solid; ZOOM: 1; PADDING-BOTTOM: 0.5em; PADDING-TOP: =
+0.5em; PADDING-LEFT: 1em; BORDER-LEFT: 1px solid; DISPLAY: inline; =
+PADDING-RIGHT: 1em
+}
+.errorbox H2 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1em; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: ; MARGIN: 0px 0.5em =
+0px 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px
+}
+.warningbox H2 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1em; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: ; MARGIN: 0px 0.5em =
+0px 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px
+}
+.successbox H2 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 1em; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: ; MARGIN: 0px 0.5em =
+0px 0px; DISPLAY: inline; BORDER-TOP-WIDTH: 0px
+}
+.errorbox {
+	BORDER-TOP-COLOR: #fac5c5; BORDER-LEFT-COLOR: #fac5c5; COLOR: #d33; =
+BORDER-BOTTOM-COLOR: #fac5c5; BORDER-RIGHT-COLOR: #fac5c5; =
+BACKGROUND-COLOR: #fae3e3
+}
+.warningbox {
+	BORDER-TOP-COLOR: #fde29b; BORDER-LEFT-COLOR: #fde29b; COLOR: #705000; =
+BORDER-BOTTOM-COLOR: #fde29b; BORDER-RIGHT-COLOR: #fde29b; =
+BACKGROUND-COLOR: #fdf1d1
+}
+.successbox {
+	BORDER-TOP-COLOR: #b7fdb5; BORDER-LEFT-COLOR: #b7fdb5; COLOR: #008000; =
+BORDER-BOTTOM-COLOR: #b7fdb5; BORDER-RIGHT-COLOR: #b7fdb5; =
+BACKGROUND-COLOR: #e1fddf
+}
+.mw-infobox {
+	OVERFLOW: hidden; BORDER-TOP: #ff7f00 2px solid; BORDER-RIGHT: #ff7f00 =
+2px solid; BORDER-BOTTOM: #ff7f00 2px solid; CLEAR: left; BORDER-LEFT: =
+#ff7f00 2px solid; MARGIN: 0.5em
+}
+.mw-infobox-left {
+	WIDTH: 35px; FLOAT: left; MARGIN: 7px
+}
+.mw-infobox-right {
+	MARGIN: 0.5em 0.5em 0.5em 49px
+}
+.previewnote {
+	MARGIN-BOTTOM: 1em; COLOR: #d33
+}
+.previewnote P {
+	MARGIN: 0.8em 0px; TEXT-INDENT: 3em
+}
+.visualClear {
+	CLEAR: both
+}
+.mw-datatable {
+	BORDER-COLLAPSE: collapse
+}
+.mw-datatable {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0.15em; BORDER-LEFT: #a2a9b1 1px solid; PADDING-RIGHT: =
+0.15em
+}
+.mw-datatable TD {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0.15em; BORDER-LEFT: #a2a9b1 1px solid; PADDING-RIGHT: =
+0.15em
+}
+.mw-datatable TH {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0.15em; BORDER-LEFT: #a2a9b1 1px solid; PADDING-RIGHT: =
+0.15em
+}
+.mw-datatable TH {
+	BACKGROUND-COLOR: #ddf
+}
+.mw-datatable TD {
+	BACKGROUND-COLOR: #fff
+}
+.mw-datatable TR:hover TD {
+	BACKGROUND-COLOR: #eaf3ff
+}
+.mw-content-ltr UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+0px 0px 1.6em; PADDING-RIGHT: 0px
+}
+.mw-content-rtl .mw-content-ltr UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+0px 0px 1.6em; PADDING-RIGHT: 0px
+}
+.mw-content-rtl UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+1.6em 0px 0px; PADDING-RIGHT: 0px
+}
+.mw-content-ltr .mw-content-rtl UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+1.6em 0px 0px; PADDING-RIGHT: 0px
+}
+.mw-content-ltr OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+0px 0px 3.2em; PADDING-RIGHT: 0px
+}
+.mw-content-rtl .mw-content-ltr OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+0px 0px 3.2em; PADDING-RIGHT: 0px
+}
+.mw-content-rtl OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+3.2em 0px 0px; PADDING-RIGHT: 0px
+}
+.mw-content-ltr .mw-content-rtl OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0.3em =
+3.2em 0px 0px; PADDING-RIGHT: 0px
+}
+.mw-content-ltr DD {
+	MARGIN-LEFT: 1.6em; MARGIN-RIGHT: 0px
+}
+.mw-content-rtl .mw-content-ltr DD {
+	MARGIN-LEFT: 1.6em; MARGIN-RIGHT: 0px
+}
+.mw-content-rtl DD {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 1.6em
+}
+.mw-content-ltr .mw-content-rtl DD {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 1.6em
+}
+.mw-ajax-loader {
+	BACKGROUND-IMAGE: =
+url(/resources/src/mediawiki.legacy/images/ajax-loader.gif?57f34); =
+BACKGROUND-REPEAT: no-repeat; POSITION: relative; BACKGROUND-POSITION: =
+center center; PADDING-BOTTOM: 16px; PADDING-TOP: 16px; PADDING-LEFT: =
+16px; TOP: -16px; PADDING-RIGHT: 16px
+}
+.mw-small-spinner {
+	BACKGROUND-IMAGE: =
+url(/resources/src/mediawiki.legacy/images/spinner.gif?ca65b); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; =
+PADDING-BOTTOM: 10px !important; PADDING-TOP: 10px !important; =
+PADDING-LEFT: 10px !important; PADDING-RIGHT: 10px !important; =
+MARGIN-RIGHT: 0.6em
+}
+UNKNOWN {
+	LINE-HEIGHT: 1.6em !important
+}
+UNKNOWN {
+	LINE-HEIGHT: 1.2em
+}
+UNKNOWN {
+=09
+}
+UNKNOWN {
+=09
+}
+UNKNOWN {
+=09
+}
+UNKNOWN {
+=09
+}
+UNKNOWN {
+=09
+}
+.toc UL {
+	MARGIN: 0.3em 0px
+}
+.mw-content-ltr .toc UL {
+	TEXT-ALIGN: left
+}
+.mw-content-rtl .mw-content-ltr .toc UL {
+	TEXT-ALIGN: left
+}
+.mw-content-rtl .toc UL {
+	TEXT-ALIGN: right
+}
+.mw-content-ltr .mw-content-rtl .toc UL {
+	TEXT-ALIGN: right
+}
+.mw-content-ltr .toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+.mw-content-rtl .mw-content-ltr .toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+.mw-content-rtl .toc UL UL {
+	MARGIN: 0px 2em 0px 0px
+}
+.mw-content-ltr .mw-content-rtl .toc UL UL {
+	MARGIN: 0px 2em 0px 0px
+}
+.toc .toctitle {
+	DIRECTION: ltr
+}
+#mw-clearyourcache {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+#mw-sitecsspreview {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+#mw-sitejspreview {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+#mw-usercsspreview {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+#mw-userjspreview {
+	unicode-bidi: embed; DIRECTION: ltr
+}
+#mw-revision-info {
+	DIRECTION: ltr
+}
+#mw-revision-info-current {
+	DIRECTION: ltr
+}
+#mw-revision-nav {
+	DIRECTION: ltr
+}
+DIV.tright {
+	FLOAT: right; CLEAR: right
+}
+DIV.floatright {
+	FLOAT: right; CLEAR: right
+}
+TABLE.floatright {
+	FLOAT: right; CLEAR: right
+}
+DIV.tleft {
+	FLOAT: left; CLEAR: left
+}
+DIV.floatleft {
+	FLOAT: left; CLEAR: left
+}
+TABLE.floatleft {
+	FLOAT: left; CLEAR: left
+}
+DIV.floatright {
+	POSITION: relative
+}
+TABLE.floatright {
+	POSITION: relative
+}
+DIV.floatleft {
+	POSITION: relative
+}
+TABLE.floatleft {
+	POSITION: relative
+}
+#mw-credits A {
+	unicode-bidi: embed
+}
+.printfooter {
+	DISPLAY: none
+}
+.xdebug-error {
+	POSITION: absolute; Z-INDEX: 99
+}
+.mw-editsection {
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select: =
+none; user-select: none
+}
+.mw-editsection {
+	FONT-SIZE: small; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; =
+MARGIN-LEFT: 1em; LINE-HEIGHT: 1em
+}
+.mw-editsection-like {
+	FONT-SIZE: small; VERTICAL-ALIGN: baseline; FONT-WEIGHT: normal; =
+MARGIN-LEFT: 1em; LINE-HEIGHT: 1em
+}
+.mw-content-ltr .mw-editsection {
+	MARGIN-LEFT: 1em
+}
+.mw-content-rtl .mw-content-ltr .mw-editsection {
+	MARGIN-LEFT: 1em
+}
+.mw-content-rtl .mw-editsection {
+	MARGIN-RIGHT: 1em
+}
+.mw-content-ltr .mw-content-rtl .mw-editsection {
+	MARGIN-RIGHT: 1em
+}
+SUP {
+	LINE-HEIGHT: 1
+}
+SUB {
+	LINE-HEIGHT: 1
+}
+A {
+	TEXT-DECORATION: none; BACKGROUND: none transparent scroll repeat 0% =
+0%; COLOR: #0645ad
+}
+UNKNOWN {
+	CURSOR: pointer
+}
+A:visited {
+	COLOR: #0b0080
+}
+A:active {
+	COLOR: #faa700
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:focus {
+	TEXT-DECORATION: underline
+}
+UNKNOWN {
+	TEXT-DECORATION: none
+}
+A.stub {
+	COLOR: #723
+}
+A.new {
+	COLOR: #ba0000
+}
+#p-personal A.new {
+	COLOR: #ba0000
+}
+A.mw-selflink {
+	FONT-WEIGHT: bold; COLOR:=20
+}
+A.mw-selflink:hover {
+	CURSOR: inherit
+}
+A.mw-selflink:active {
+	COLOR:=20
+}
+A.mw-selflink:visited {
+	COLOR:=20
+}
+A.new:visited {
+	COLOR: #a55858
+}
+#p-personal A.new:visited {
+	COLOR: #a55858
+}
+.mw-parser-output A.extiw {
+	COLOR: #36b
+}
+.mw-parser-output A.extiw:active {
+	COLOR: #36b
+}
+.mw-parser-output A.extiw:visited {
+	COLOR: #636
+}
+.mw-parser-output A.extiw:active {
+	COLOR: #b63
+}
+.mw-parser-output A.external {
+	COLOR: #36b
+}
+.mw-parser-output A.external:visited {
+	COLOR: #636
+}
+.mw-parser-output A.external:active {
+	COLOR: #b63
+}
+.mw-parser-output A.free.external {
+	WORD-WRAP: break-word
+}
+IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; VERTICAL-ALIGN: =
+middle; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+HR {
+	BORDER-LEFT-WIDTH: 0px; HEIGHT: 1px; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; COLOR: #a2a9b1; MARGIN: 0.2em 0px; =
+BORDER-TOP-WIDTH: 0px; BACKGROUND-COLOR: #a2a9b1
+}
+H1 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H2 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H3 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H4 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H5 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H6 {
+	OVERFLOW: hidden; BACKGROUND: none transparent scroll repeat 0% 0%; =
+BORDER-BOTTOM: #a2a9b1 1px solid; FONT-WEIGHT: normal; COLOR: #000; =
+PADDING-BOTTOM: 0.17em; PADDING-TOP: 0.5em; MARGIN: 0px
+}
+H1 {
+	FONT-SIZE: 188%
+}
+H2 {
+	FONT-SIZE: 150%
+}
+H3 {
+	BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold
+}
+H4 {
+	BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold
+}
+H5 {
+	BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold
+}
+H6 {
+	BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold
+}
+H3 {
+	FONT-SIZE: 128%
+}
+H4 {
+	FONT-SIZE: 116%
+}
+H5 {
+	FONT-SIZE: 108%
+}
+H6 {
+	FONT-SIZE: 100%
+}
+H1 {
+	MARGIN-BOTTOM: 0.6em
+}
+H2 {
+	MARGIN-BOTTOM: 0.6em
+}
+H3 {
+	MARGIN-BOTTOM: 0.3em
+}
+H4 {
+	MARGIN-BOTTOM: 0.3em
+}
+H5 {
+	MARGIN-BOTTOM: 0.3em
+}
+P {
+	MARGIN: 0.4em 0px 0.5em
+}
+P IMG {
+	MARGIN: 0px
+}
+UL {
+	LIST-STYLE-TYPE: square; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: 0.3em 0px 0px 1.6em; PADDING-RIGHT: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+LIST-STYLE-IMAGE: none; MARGIN: 0.3em 0px 0px 3.2em; PADDING-RIGHT: 0px
+}
+LI {
+	MARGIN-BOTTOM: 0.1em
+}
+DT {
+	MARGIN-BOTTOM: 0.1em; FONT-WEIGHT: bold
+}
+DL {
+	MARGIN-BOTTOM: 0.5em; MARGIN-TOP: 0.2em
+}
+DD {
+	MARGIN-BOTTOM: 0.1em; MARGIN-LEFT: 1.6em
+}
+PRE {
+	FONT-FAMILY: monospace,monospace
+}
+CODE {
+	FONT-FAMILY: monospace,monospace
+}
+TT {
+	FONT-FAMILY: monospace,monospace
+}
+KBD {
+	FONT-FAMILY: monospace,monospace
+}
+SAMP {
+	FONT-FAMILY: monospace,monospace
+}
+.mw-code {
+	FONT-FAMILY: monospace,monospace
+}
+CODE {
+	BORDER-TOP: #eaecf0 1px solid; BORDER-RIGHT: #eaecf0 1px solid; =
+BORDER-BOTTOM: #eaecf0 1px solid; COLOR: #000; PADDING-BOTTOM: 1px; =
+PADDING-TOP: 1px; PADDING-LEFT: 4px; BORDER-LEFT: #eaecf0 1px solid; =
+PADDING-RIGHT: 4px; BACKGROUND-COLOR: #f8f9fa; border-radius: 2px
+}
+PRE {
+	BORDER-TOP: #eaecf0 1px solid; BORDER-RIGHT: #eaecf0 1px solid; =
+WHITE-SPACE: pre-wrap; BORDER-BOTTOM: #eaecf0 1px solid; COLOR: #000; =
+PADDING-BOTTOM: 1em; PADDING-TOP: 1em; PADDING-LEFT: 1em; BORDER-LEFT: =
+#eaecf0 1px solid; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #f8f9fa
+}
+.mw-code {
+	BORDER-TOP: #eaecf0 1px solid; BORDER-RIGHT: #eaecf0 1px solid; =
+WHITE-SPACE: pre-wrap; BORDER-BOTTOM: #eaecf0 1px solid; COLOR: #000; =
+PADDING-BOTTOM: 1em; PADDING-TOP: 1em; PADDING-LEFT: 1em; BORDER-LEFT: =
+#eaecf0 1px solid; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #f8f9fa
+}
+TABLE {
+	FONT-SIZE: 100%
+}
+FIELDSET {
+	BORDER-TOP: #2a4b8d 1px solid; BORDER-RIGHT: #2a4b8d 1px solid; =
+BORDER-BOTTOM: #2a4b8d 1px solid; PADDING-BOTTOM: 1em; PADDING-TOP: 0px; =
+PADDING-LEFT: 1em; BORDER-LEFT: #2a4b8d 1px solid; MARGIN: 1em 0px; =
+PADDING-RIGHT: 1em
+}
+FIELDSET.nested {
+	PADDING-BOTTOM: 0.5em; PADDING-TOP: 0px; PADDING-LEFT: 0.5em; MARGIN: =
+0px 0px 0.5em; PADDING-RIGHT: 0.5em
+}
+LEGEND {
+	FONT-SIZE: 95%; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.5em; =
+PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em
+}
+FORM {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; MARGIN: 0px; BORDER-TOP-WIDTH: 0px
+}
+TEXTAREA {
+	BOX-SIZING: border-box; WIDTH: 100%; PADDING-BOTTOM: 0.1em; =
+PADDING-TOP: 0.1em; PADDING-LEFT: 0.1em; DISPLAY: block; PADDING-RIGHT: =
+0.1em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box
+}
+.center {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+*.center * {
+	MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.small {
+	FONT-SIZE: 94%
+}
+TABLE.small {
+	FONT-SIZE: 100%
+}
+.toc {
+	FONT-SIZE: 95%; BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 =
+1px solid; BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f8f9fa
+}
+.mw-warning {
+	FONT-SIZE: 95%; BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 =
+1px solid; BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f8f9fa
+}
+.toccolours {
+	FONT-SIZE: 95%; BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 =
+1px solid; BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #a2a9b1 1px solid; =
+PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f8f9fa
+}
+.toc {
+	ZOOM: 1; PADDING-BOTTOM: 7px; PADDING-TOP: 7px; PADDING-LEFT: 7px; =
+DISPLAY: inline; PADDING-RIGHT: 7px
+}
+TABLE.toc {
+	BORDER-COLLAPSE: collapse
+}
+TABLE.toc TD {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+PADDING-RIGHT: 0px
+}
+.toc H2 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 100%; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; DISPLAY: inline; PADDING-RIGHT: =
+0px; BORDER-TOP-WIDTH: 0px
+}
+.toc .toctitle {
+	TEXT-ALIGN: center
+}
+.toc UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN-LEFT: 0px; LIST-STYLE-IMAGE: =
+none; PADDING-RIGHT: 0px
+}
+.toc UL UL {
+	MARGIN: 0px 0px 0px 2em
+}
+.tocnumber {
+	DISPLAY: table-cell
+}
+.toctext {
+	DISPLAY: table-cell
+}
+.tocnumber {
+	COLOR: #222; PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em
+}
+.mw-content-ltr .tocnumber {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0.5em
+}
+.mw-content-rtl .tocnumber {
+	PADDING-LEFT: 0.5em; PADDING-RIGHT: 0px
+}
+.mw-warning {
+	TEXT-ALIGN: center; MARGIN-LEFT: 50px; MARGIN-RIGHT: 50px
+}
+DIV.floatright {
+	MARGIN: 0px 0px 0.5em 0.5em
+}
+TABLE.floatright {
+	MARGIN: 0px 0px 0.5em 0.5em
+}
+DIV.floatleft {
+	MARGIN: 0px 0.5em 0.5em 0px
+}
+TABLE.floatleft {
+	MARGIN: 0px 0.5em 0.5em 0px
+}
+DIV.thumb {
+	MARGIN-BOTTOM: 0.5em; WIDTH: auto; BACKGROUND-COLOR: transparent
+}
+DIV.thumbinner {
+	FONT-SIZE: 94%; OVERFLOW: hidden; BORDER-TOP: #c8ccd1 1px solid; =
+BORDER-RIGHT: #c8ccd1 1px solid; BORDER-BOTTOM: #c8ccd1 1px solid; =
+PADDING-BOTTOM: 3px; TEXT-ALIGN: center; PADDING-TOP: 3px; PADDING-LEFT: =
+3px; BORDER-LEFT: #c8ccd1 1px solid; PADDING-RIGHT: 3px; =
+BACKGROUND-COLOR: #f8f9fa
+}
+HTML .thumbimage {
+	BORDER-TOP: #c8ccd1 1px solid; BORDER-RIGHT: #c8ccd1 1px solid; =
+BORDER-BOTTOM: #c8ccd1 1px solid; BORDER-LEFT: #c8ccd1 1px solid; =
+BACKGROUND-COLOR: #fff
+}
+HTML .thumbcaption {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 94%; BORDER-RIGHT-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 3px; TEXT-ALIGN: left; =
+PADDING-TOP: 3px; PADDING-LEFT: 3px; LINE-HEIGHT: 1.4em; PADDING-RIGHT: =
+3px; BORDER-TOP-WIDTH: 0px
+}
+DIV.magnify {
+	FLOAT: right; MARGIN-LEFT: 3px
+}
+DIV.magnify A {
+	OVERFLOW: hidden; HEIGHT: 11px; WIDTH: 15px; BACKGROUND-IMAGE: =
+url(/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704);=
+ WHITE-SPACE: nowrap; DISPLAY: block; TEXT-INDENT: 15px; =
+-moz-user-select: none; -webkit-user-select: none; -ms-user-select: =
+none; user-select: none
+}
+IMG.thumbborder {
+	BORDER-TOP: #eaecf0 1px solid; BORDER-RIGHT: #eaecf0 1px solid; =
+BORDER-BOTTOM: #eaecf0 1px solid; BORDER-LEFT: #eaecf0 1px solid
+}
+.mw-content-ltr .thumbcaption {
+	TEXT-ALIGN: left
+}
+.mw-content-ltr .magnify {
+	FLOAT: right; MARGIN-LEFT: 3px; MARGIN-RIGHT: 0px
+}
+.mw-content-ltr DIV.magnify A {
+	BACKGROUND-IMAGE: =
+url(/resources/src/mediawiki.skinning/images/magnify-clip-ltr.png?4f704)
+}
+.mw-content-rtl .thumbcaption {
+	TEXT-ALIGN: right
+}
+.mw-content-rtl .magnify {
+	FLOAT: left; MARGIN-LEFT: 0px; MARGIN-RIGHT: 3px
+}
+.mw-content-rtl DIV.magnify A {
+	BACKGROUND-IMAGE: =
+url(/resources/src/mediawiki.skinning/images/magnify-clip-rtl.png?a9fb3)
+}
+DIV.tright {
+	MARGIN: 0.5em 0px 1.3em 1.4em
+}
+DIV.tleft {
+	MARGIN: 0.5em 1.4em 1.3em 0px
+}
+BODY.mw-hide-empty-elt .mw-empty-elt {
+	DISPLAY: none
+}
+.catlinks {
+	BORDER-TOP: #a2a9b1 1px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+MARGIN-TOP: 1em; BORDER-BOTTOM: #a2a9b1 1px solid; PADDING-BOTTOM: 5px; =
+PADDING-TOP: 5px; PADDING-LEFT: 5px; CLEAR: both; BORDER-LEFT: #a2a9b1 =
+1px solid; PADDING-RIGHT: 5px; BACKGROUND-COLOR: #f8f9fa
+}
+TEXTAREA {
+	BORDER-TOP: #c8ccd1 1px solid; BORDER-RIGHT: #c8ccd1 1px solid; =
+BORDER-BOTTOM: #c8ccd1 1px solid; BORDER-LEFT: #c8ccd1 1px solid
+}
+.editOptions {
+	MARGIN-BOTTOM: 2em; BORDER-TOP: #c8ccd1 0px solid; BORDER-RIGHT: =
+#c8ccd1 1px solid; BORDER-BOTTOM: #c8ccd1 1px solid; COLOR: #222; =
+PADDING-BOTTOM: 1.5em; PADDING-TOP: 1em; PADDING-LEFT: 1em; BORDER-LEFT: =
+#c8ccd1 1px solid; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #eaecf0
+}
+.usermessage {
+	BORDER-TOP: #ffa500 1px solid; BORDER-RIGHT: #ffa500 1px solid; =
+VERTICAL-ALIGN: middle; BORDER-BOTTOM: #ffa500 1px solid; FONT-WEIGHT: =
+bold; COLOR: #000; PADDING-BOTTOM: 0.5em; PADDING-TOP: 0.5em; =
+PADDING-LEFT: 1em; BORDER-LEFT: #ffa500 1px solid; MARGIN: 2em 0px 1em; =
+PADDING-RIGHT: 1em; BACKGROUND-COLOR: #ffce7b
+}
+#siteNotice {
+	POSITION: relative; TEXT-ALIGN: center; MARGIN: 0px
+}
+#localNotice {
+	MARGIN-BOTTOM: 0.9em
+}
+.firstHeading {
+	MARGIN-BOTTOM: 0.1em; PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.2em
+}
+#siteSub {
+	DISPLAY: none
+}
+#contentSub {
+	FONT-SIZE: 84%; WIDTH: auto; COLOR: #54595d; MARGIN: 0px 0px 1.4em 1em; =
+LINE-HEIGHT: 1.2em
+}
+#contentSub2 {
+	FONT-SIZE: 84%; WIDTH: auto; COLOR: #54595d; MARGIN: 0px 0px 1.4em 1em; =
+LINE-HEIGHT: 1.2em
+}
+SPAN.subpages {
+	DISPLAY: block
+}
+    }
+.mw-wiki-logo {
+	BACKGROUND-IMAGE: url(/resources/assets/IEHPWikiIcon.png?b8c09)
+}
+
+@media Screen   =20
+{
+HTML {
+	FONT-SIZE: 100%
+}
+HTML {
+	HEIGHT: 100%; FONT-FAMILY: sans-serif; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BODY {
+	HEIGHT: 100%; FONT-FAMILY: sans-serif; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+BODY {
+	BACKGROUND-COLOR: #f6f6f6
+}
+.mw-body {
+	COLOR: #222222; PADDING-BOTTOM: 1em; DIRECTION: ltr; PADDING-TOP: 1em; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #ffffff
+}
+.parsoid-body {
+	COLOR: #222222; PADDING-BOTTOM: 1em; DIRECTION: ltr; PADDING-TOP: 1em; =
+PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND-COLOR: #ffffff
+}
+.mw-body {
+	BORDER-TOP: #a7d7f9 1px solid; BORDER-RIGHT: #a7d7f9 0px solid; =
+MARGIN-TOP: -1px; BORDER-BOTTOM: #a7d7f9 1px solid; MARGIN-LEFT: 10em; =
+BORDER-LEFT: #a7d7f9 1px solid
+}
+.mw-body H1 {
+	MARGIN-BOTTOM: 0.25em; FONT-FAMILY: 'Linux =
+Libertine','Georgia','Times',serif; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.3; PADDING-RIGHT: 0px
+}
+.mw-body-content H1 {
+	MARGIN-BOTTOM: 0.25em; FONT-FAMILY: 'Linux =
+Libertine','Georgia','Times',serif; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.3; PADDING-RIGHT: 0px
+}
+.mw-body-content H2 {
+	MARGIN-BOTTOM: 0.25em; FONT-FAMILY: 'Linux =
+Libertine','Georgia','Times',serif; PADDING-BOTTOM: 0px; PADDING-TOP: =
+0px; PADDING-LEFT: 0px; LINE-HEIGHT: 1.3; PADDING-RIGHT: 0px
+}
+UNKNOWN {
+	FONT-FAMILY: sans-serif
+}
+UNKNOWN {
+	LINE-HEIGHT: normal
+}
+.mw-body H1 {
+	FONT-SIZE: 1.8em
+}
+.mw-body-content H1 {
+	FONT-SIZE: 1.8em
+}
+.mw-body .firstHeading {
+	OVERFLOW: visible
+}
+.mw-body .mw-indicators {
+	FONT-SIZE: 0.87em; POSITION: relative; FLOAT: right; Z-INDEX: 1; =
+LINE-HEIGHT: 1.6
+}
+.mw-body .mw-indicator {
+	ZOOM: 1; DISPLAY: inline
+}
+.mw-body-content {
+	FONT-SIZE: 0.87em; POSITION: relative; Z-INDEX: 0; LINE-HEIGHT: 1.6
+}
+.mw-body-content P {
+	MARGIN: 0.5em 0px
+}
+.mw-body-content H1 {
+	MARGIN-TOP: 1em
+}
+.mw-body-content H2 {
+	FONT-SIZE: 1.5em; MARGIN-TOP: 1em
+}
+.mw-body-content H3 {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0.3em; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 1.6
+}
+.mw-body-content H4 {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0.3em; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 1.6
+}
+.mw-body-content H5 {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0.3em; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 1.6
+}
+.mw-body-content H6 {
+	MARGIN-BOTTOM: 0px; MARGIN-TOP: 0.3em; PADDING-BOTTOM: 0px; =
+LINE-HEIGHT: 1.6
+}
+.mw-body-content H3 {
+	FONT-SIZE: 1.2em
+}
+.mw-body-content H3 {
+	FONT-WEIGHT: bold
+}
+.mw-body-content H4 {
+	FONT-WEIGHT: bold
+}
+.mw-body-content H4 {
+	FONT-SIZE: 100%
+}
+.mw-body-content H5 {
+	FONT-SIZE: 100%
+}
+.mw-body-content H6 {
+	FONT-SIZE: 100%
+}
+.mw-body-content .toc H2 {
+	FONT-SIZE: 100%; FONT-FAMILY: sans-serif
+}
+.mw-editsection {
+	FONT-FAMILY: sans-serif
+}
+.mw-editsection-like {
+	FONT-FAMILY: sans-serif
+}
+DIV.emptyPortlet {
+	DISPLAY: none
+}
+UL {
+	LIST-STYLE-TYPE: disc; LIST-STYLE-IMAGE: =
+url(/skins/Vector/images/bullet-icon.png?e31f8)
+}
+PRE {
+	LINE-HEIGHT: 1.3em
+}
+.mw-code {
+	LINE-HEIGHT: 1.3em
+}
+#siteNotice {
+	FONT-SIZE: 0.8em
+}
+#p-personal {
+	RIGHT: 0.75em; POSITION: absolute; Z-INDEX: 100; TOP: 0.33em
+}
+#p-personal H3 {
+	DISPLAY: none
+}
+#p-personal UL {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 10em; LIST-STYLE-IMAGE: none; =
+MARGIN: 0px
+}
+#p-personal LI {
+	FONT-SIZE: 0.75em; WHITE-SPACE: nowrap; MARGIN-TOP: 0.5em; FLOAT: left; =
+MARGIN-LEFT: 0.75em; LINE-HEIGHT: 1.16em
+}
+#pt-userpage A {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/user-avatar.png?59494); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; =
+PADDING-LEFT: 16px !important; background-size: 1.16666667em =
+1.16666667em
+}
+#pt-anonuserpage {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/user-avatar.png?59494); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; =
+PADDING-LEFT: 16px !important; background-size: 1.16666667em =
+1.16666667em
+}
+#pt-anonuserpage {
+	COLOR: #54595d
+}
+#p-search {
+	FLOAT: left; MARGIN-LEFT: 0.5em; MARGIN-RIGHT: 0.5em
+}
+#p-search H3 {
+	BORDER-LEFT-WIDTH: 0px; OVERFLOW: hidden; HEIGHT: 1px; =
+BORDER-RIGHT-WIDTH: 0px; WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; POSITION: =
+absolute !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: -1px; DISPLAY: block; PADDING-RIGHT: 0px; =
+BORDER-TOP-WIDTH: 0px
+}
+#p-search FORM {
+	MARGIN: 0.4em 0px 0px
+}
+#p-search INPUT {
+	MARGIN: 0.4em 0px 0px
+}
+#simpleSearch {
+	MAX-WIDTH: 20em; BORDER-TOP: #a2a9b1 1px solid; HEIGHT: 1.4em; =
+BORDER-RIGHT: #a2a9b1 1px solid; WIDTH: 12.6em; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/search-fade.png?50f7b); MARGIN-TOP: 0.65em; =
+BACKGROUND-REPEAT: repeat-x; MIN-WIDTH: 5em; BORDER-BOTTOM: #a2a9b1 1px =
+solid; POSITION: relative; BACKGROUND-POSITION: left top; COLOR: #000; =
+MIN-HEIGHT: 1px; BORDER-LEFT: #a2a9b1 1px solid; DISPLAY: block; =
+PADDING-RIGHT: 1.4em; BACKGROUND-COLOR: #fff; border-radius: 2px; =
+-webkit-transition: border-color 250ms; -moz-transition: border-color =
+250ms; transition: border-color 250ms
+}
+#simpleSearch:hover {
+	BORDER-TOP-COLOR: #72777d; BORDER-LEFT-COLOR: #72777d; =
+BORDER-BOTTOM-COLOR: #72777d; BORDER-RIGHT-COLOR: #72777d
+}
+#simpleSearch INPUT {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; COLOR: #000; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; MARGIN: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; =
+BACKGROUND-COLOR: transparent
+}
+#simpleSearch #searchInput {
+	FONT-SIZE: 0.81em; WIDTH: 100%; PADDING-BOTTOM: 0.2em; DIRECTION: ltr; =
+PADDING-TOP: 0.2em; PADDING-LEFT: 0.2em; PADDING-RIGHT: 0px; =
+-webkit-appearance: textfield
+}
+#simpleSearch #searchInput:focus {
+	OUTLINE-WIDTH: 0px
+}
+#simpleSearch #searchInput:unknown {
+	COLOR: #72777d; opacity: 1
+}
+#simpleSearch #searchInput:unknown {
+	COLOR: #72777d; opacity: 1
+}
+#simpleSearch #searchInput:unknown {
+	COLOR: #72777d; opacity: 1
+}
+#simpleSearch #searchInput:unknown {
+	COLOR: #72777d; opacity: 1
+}
+#simpleSearch #searchInput:unknown {
+	COLOR: #72777d; opacity: 1
+}
+#simpleSearch #searchInput:unknown {
+	-webkit-appearance: textfield
+}
+#simpleSearch #searchInput:unknown {
+	-webkit-appearance: textfield
+}
+#simpleSearch #searchInput:unknown {
+	-webkit-appearance: textfield
+}
+#simpleSearch #searchInput:unknown {
+	-webkit-appearance: textfield
+}
+#simpleSearch #searchButton {
+	OVERFLOW: hidden; CURSOR: pointer; HEIGHT: 100%; WIDTH: 1.65em; =
+WHITE-SPACE: nowrap; RIGHT: 0px; POSITION: absolute; DIRECTION: ltr; =
+TOP: 0px; TEXT-INDENT: -99999px
+}
+#simpleSearch #mw-searchButton {
+	OVERFLOW: hidden; CURSOR: pointer; HEIGHT: 100%; WIDTH: 1.65em; =
+WHITE-SPACE: nowrap; RIGHT: 0px; POSITION: absolute; DIRECTION: ltr; =
+TOP: 0px; TEXT-INDENT: -99999px
+}
+#simpleSearch #searchButton {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/search-ltr.png?39f97); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center
+}
+#simpleSearch #mw-searchButton {
+	Z-INDEX: 1
+}
+.vectorTabs H3 {
+	DISPLAY: none
+}
+.vectorTabs {
+	HEIGHT: 2.5em; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/tab-break.png?09d4b); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: left bottom; FLOAT: left; PADDING-LEFT: =
+1px
+}
+.vectorTabs UL {
+	LIST-STYLE-TYPE: none; HEIGHT: 100%; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/tab-break.png?09d4b); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right bottom; FLOAT: left; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+LIST-STYLE-IMAGE: none; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.vectorTabs UL LI {
+	HEIGHT: 100%; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/tab-normal-fade.png?1cc52); WHITE-SPACE: =
+nowrap; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left bottom; =
+FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; =
+MARGIN: 0px; DISPLAY: block; LINE-HEIGHT: 1.12em; PADDING-RIGHT: 0px
+}
+.vectorTabs LI.new A {
+	COLOR: #a55858
+}
+.vectorTabs LI.new A:visited {
+	COLOR: #a55858
+}
+.vectorTabs LI.selected {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/tab-current-fade.png?22887)
+}
+.vectorTabs LI.selected A {
+	TEXT-DECORATION: none; COLOR: #222
+}
+.vectorTabs LI.selected A:visited {
+	TEXT-DECORATION: none; COLOR: #222
+}
+.vectorTabs LI.icon A {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right bottom
+}
+.vectorTabs LI A {
+	FONT-SIZE: 0.81em; CURSOR: pointer; HEIGHT: 1.9em; COLOR: #0645ad; =
+PADDING-LEFT: 0.61em; DISPLAY: block; PADDING-RIGHT: 0.61em
+}
+.vectorTabs SPAN {
+	HEIGHT: 100%; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/tab-break.png?09d4b); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right bottom; DISPLAY: inline-block
+}
+.vectorTabs SPAN A {
+	POSITION: relative; FLOAT: left; PADDING-TOP: 1.25em; DISPLAY: block
+}
+.vectorMenu {
+	CURSOR: pointer; POSITION: relative; FLOAT: left; DIRECTION: ltr; =
+LINE-HEIGHT: 1.12em
+}
+#mw-head .vectorMenu H3 {
+	FONT-SIZE: 1em; HEIGHT: 2.5em; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/tab-break.png?09d4b); BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: right bottom; FLOAT: left; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px =
+-1px 0px 0px; PADDING-RIGHT: 0.5em
+}
+.vectorMenu H3 SPAN {
+	FONT-SIZE: 0.81em; POSITION: relative; FONT-WEIGHT: normal; COLOR: =
+#444; PADDING-TOP: 1.25em; PADDING-LEFT: 0.61em; DISPLAY: block; =
+PADDING-RIGHT: 16px
+}
+.vectorMenu H3 SPAN:after {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/arrow-down.png?42edd); =
+RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; =
+BACKGROUND-POSITION: 100% 50%; LEFT: 0px; TOP: 1.25em; BOTTOM: 0px; =
+opacity: 0.85
+}
+.vectorMenu H3:hover SPAN {
+	COLOR: #222222
+}
+.vectorMenu H3:focus SPAN {
+	COLOR: #222222
+}
+.vectorMenu H3:hover SPAN:after {
+	opacity: 1
+}
+.vectorMenu H3:focus SPAN:after {
+	opacity: 1
+}
+.vectorMenu .vectorMenuCheckbox:unknown + H3 SPAN:after {
+	transform: scaleY(-1)
+}
+.vectorMenu .vectorMenuCheckbox:focus + H3 {
+	OUTLINE-WIDTH: 1px; OUTLINE-STYLE: dotted
+}
+.vectorMenu .menu {
+	BORDER-TOP: #a2a9b1 0px solid; BORDER-RIGHT: #a2a9b1 1px solid; =
+MIN-WIDTH: 100%; BORDER-BOTTOM: #a2a9b1 1px solid; POSITION: absolute; =
+TEXT-ALIGN: left; CLEAR: both; LEFT: -1px; BORDER-LEFT: #a2a9b1 1px =
+solid; Z-INDEX: 2; DISPLAY: none; TOP: 2.5em; BACKGROUND-COLOR: #ffffff; =
+box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1)
+}
+.vectorMenu:hover .menu {
+	DISPLAY: block
+}
+.vectorMenu .vectorMenuCheckbox:unknown ~ .menu {
+	DISPLAY: block
+}
+.vectorMenu UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; TEXT-ALIGN: left; =
+PADDING-TOP: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; MARGIN: =
+0px; PADDING-RIGHT: 0px
+}
+.vectorMenu LI {
+	PADDING-BOTTOM: 0px; TEXT-ALIGN: left; PADDING-TOP: 0px; PADDING-LEFT: =
+0px; MARGIN: 0px; LINE-HEIGHT: 1em; PADDING-RIGHT: 0px
+}
+.vectorMenu LI A {
+	FONT-SIZE: 0.81em; CURSOR: pointer; WHITE-SPACE: nowrap; COLOR: =
+#0645ad; PADDING-BOTTOM: 0.62em; PADDING-TOP: 0.62em; PADDING-LEFT: =
+0.62em; DISPLAY: block; PADDING-RIGHT: 0.62em
+}
+.vectorMenu LI.selected A {
+	TEXT-DECORATION: none; COLOR: #222
+}
+.vectorMenu LI.selected A:visited {
+	TEXT-DECORATION: none; COLOR: #222
+}
+.vectorMenuCheckbox {
+	CURSOR: pointer; HEIGHT: 100%; WIDTH: 100%; POSITION: absolute; =
+PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; =
+MARGIN: 0px; Z-INDEX: 1; DISPLAY: none; TOP: 0px; PADDING-RIGHT: 0px; =
+opacity: 0
+}
+UNKNOWN {
+	DISPLAY: block
+}
+.vectorTabs .icon#ca-unwatch A {
+	OVERFLOW: hidden; HEIGHT: 0px; WIDTH: 28px; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: 5px 60%; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 3.07em; PADDING-LEFT: 0px; MARGIN: 0px; DISPLAY: block; =
+PADDING-RIGHT: 0px
+}
+.vectorTabs .icon#ca-watch A {
+	OVERFLOW: hidden; HEIGHT: 0px; WIDTH: 28px; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: 5px 60%; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 3.07em; PADDING-LEFT: 0px; MARGIN: 0px; DISPLAY: block; =
+PADDING-RIGHT: 0px
+}
+.vectorTabs .icon#ca-unwatch A {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/unwatch-icon.png?fccbe)
+}
+.vectorTabs .icon#ca-watch A {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/watch-icon.png?e1b42)
+}
+.vectorTabs .icon#ca-unwatch A:hover {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/unwatch-icon-hl.png?c4723)
+}
+.vectorTabs .icon#ca-unwatch A:focus {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/unwatch-icon-hl.png?c4723)
+}
+.vectorTabs .icon#ca-watch A:hover {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/watch-icon-hl.png?f4c7e)
+}
+.vectorTabs .icon#ca-watch A:focus {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/watch-icon-hl.png?f4c7e)
+}
+.vectorTabs .icon#ca-unwatch A.loading {
+	CURSOR: default; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/watch-icon-loading.png?5cb92); =
+BACKGROUND-POSITION: 50% 60%; OUTLINE-WIDTH: 0px; -webkit-animation: =
+rotate 700ms infinite linear; -moz-animation: rotate 700ms infinite =
+linear; animation: rotate 700ms infinite linear; pointer-events: none; =
+-webkit-transform-origin: 50% 57%; transform-origin: 50% 57%
+}
+.vectorTabs .icon#ca-watch A.loading {
+	CURSOR: default; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/watch-icon-loading.png?5cb92); =
+BACKGROUND-POSITION: 50% 60%; OUTLINE-WIDTH: 0px; -webkit-animation: =
+rotate 700ms infinite linear; -moz-animation: rotate 700ms infinite =
+linear; animation: rotate 700ms infinite linear; pointer-events: none; =
+-webkit-transform-origin: 50% 57%; transform-origin: 50% 57%
+}
+.vectorTabs .icon#ca-unwatch A SPAN {
+	DISPLAY: none
+}
+.vectorTabs .icon#ca-watch A SPAN {
+	DISPLAY: none
+}
+#mw-navigation H2 {
+	POSITION: absolute; TOP: -9999px
+}
+UNKNOWN {
+	BORDER-LEFT-WIDTH: 0px; OVERFLOW: hidden; HEIGHT: 1px; =
+BORDER-RIGHT-WIDTH: 0px; WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; POSITION: =
+absolute !important; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; MARGIN: -1px; DISPLAY: block; PADDING-RIGHT: 0px; =
+BORDER-TOP-WIDTH: 0px
+}
+#mw-page-base {
+	HEIGHT: 5em; BACKGROUND-IMAGE: =
+url(/skins/Vector/images/page-fade.png?1d168); BACKGROUND-REPEAT: =
+repeat-x; BACKGROUND-POSITION: left bottom; BACKGROUND-COLOR: #ffffff
+}
+#mw-head-base {
+	HEIGHT: 5em; MARGIN-TOP: -5em; MARGIN-LEFT: 10em
+}
+#mw-head {
+	WIDTH: 100%; RIGHT: 0px; POSITION: absolute; TOP: 0px
+}
+#left-navigation {
+	MARGIN-BOTTOM: -2.5em; MARGIN-TOP: 2.5em; FLOAT: left; MARGIN-LEFT: =
+10em
+}
+#right-navigation {
+	MARGIN-TOP: 2.5em; FLOAT: right
+}
+#p-logo {
+	HEIGHT: 160px; WIDTH: 10em
+}
+#p-logo A {
+	TEXT-DECORATION: none; HEIGHT: 160px; WIDTH: 10em; BACKGROUND-REPEAT: =
+no-repeat; BACKGROUND-POSITION: center center; DISPLAY: block
+}
+#mw-panel {
+	WIDTH: 10em; POSITION: absolute; LEFT: 0px; TOP: 0px
+}
+#mw-panel .portal {
+	BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; =
+PADDING-BOTTOM: 0.25em; DIRECTION: ltr; PADDING-TOP: 0.25em; =
+PADDING-LEFT: 0px; MARGIN: 0px 0.6em 0px 0.7em; PADDING-RIGHT: 0px
+}
+#mw-panel .portal H3 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 0.75em; CURSOR: default; =
+BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: normal; =
+COLOR: #444444; PADDING-BOTTOM: 0.25em; PADDING-TOP: 0.25em; =
+PADDING-LEFT: 0px; MARGIN: 0.5em 0px 0px 0.66em; PADDING-RIGHT: 0px; =
+BORDER-TOP-WIDTH: 0px
+}
+#mw-panel .portal .body {
+	BACKGROUND-IMAGE: url(/skins/Vector/images/portal-break.png?3ea1b); =
+BACKGROUND-REPEAT: no-repeat; PADDING-TOP: 0px; MARGIN-LEFT: 0.5em
+}
+#mw-panel .portal .body UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0.3em; =
+PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; MARGIN: 0px; PADDING-RIGHT: =
+0px
+}
+#mw-panel .portal .body LI {
+	FONT-SIZE: 0.75em; WORD-WRAP: break-word; PADDING-BOTTOM: 0.25em; =
+PADDING-TOP: 0.25em; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: =
+1.12em; PADDING-RIGHT: 0px
+}
+#mw-panel .portal .body LI A {
+	COLOR: #0645ad
+}
+#mw-panel .portal .body LI A:visited {
+	COLOR: #0b0080
+}
+#mw-panel #p-logo + .portal {
+	BACKGROUND-IMAGE: none; MARGIN-TOP: 1em
+}
+#mw-panel #p-logo + .portal H3 {
+	DISPLAY: none
+}
+#mw-panel #p-logo + .portal .body {
+	BACKGROUND-IMAGE: none; MARGIN-LEFT: 0.5em
+}
+#footer {
+	MARGIN-TOP: 0px; PADDING-BOTTOM: 0.75em; DIRECTION: ltr; PADDING-TOP: =
+0.75em; PADDING-LEFT: 0.75em; MARGIN-LEFT: 10em; PADDING-RIGHT: 0.75em
+}
+#footer UL {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; LIST-STYLE-IMAGE: none; MARGIN: 0px; PADDING-RIGHT: =
+0px
+}
+#footer UL LI {
+	FONT-SIZE: 0.7em; COLOR: #222; PADDING-BOTTOM: 0.5em; PADDING-TOP: =
+0.5em; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+#footer #footer-icons {
+	FLOAT: right
+}
+#footer #footer-icons LI {
+	FLOAT: left; TEXT-ALIGN: right; MARGIN-LEFT: 0.5em; LINE-HEIGHT: 2em
+}
+#footer #footer-info LI {
+	LINE-HEIGHT: 1.4em
+}
+#footer #footer-places LI {
+	FLOAT: left; LINE-HEIGHT: 2em; MARGIN-RIGHT: 1em
+}
+.mw-parser-output .external {
+	BACKGROUND-IMAGE: =
+url(/skins/Vector/images/external-link-ltr-icon.png?325de); =
+BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right center; =
+PADDING-RIGHT: 13px
+}
+
+}
+
+@media Unknown   =20
+{
+.mw-body {
+	MARGIN-LEFT: 11em
+}
+#mw-head-base {
+	MARGIN-LEFT: 11em
+}
+#left-navigation {
+	MARGIN-LEFT: 11em
+}
+#footer {
+	MARGIN-LEFT: 11em
+}
+.mw-body {
+	PADDING-BOTTOM: 1.5em; PADDING-TOP: 1.25em; PADDING-LEFT: 1.5em; =
+PADDING-RIGHT: 1.5em
+}
+#footer {
+	PADDING-BOTTOM: 1.25em; PADDING-TOP: 1.25em; PADDING-LEFT: 1.25em; =
+PADDING-RIGHT: 1.25em
+}
+#mw-panel {
+	PADDING-LEFT: 0.5em
+}
+#p-search {
+	MARGIN-RIGHT: 1em
+}
+#p-personal {
+	RIGHT: 1em
+}
+
+}
+
+@media Print   =20
+{
+.toc {
+	FONT-FAMILY: 'Linux Libertine','Georgia','Times',serif; PADDING-BOTTOM: =
+10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+BODY {
+	FONT-FAMILY: 'Linux Libertine','Georgia','Times',serif; PADDING-BOTTOM: =
+10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+.printfooter {
+	FONT-FAMILY: sans-serif
+}
+#footer {
+	FONT-FAMILY: sans-serif
+}
+.thumb {
+	FONT-FAMILY: sans-serif
+}
+TABLE {
+	FONT-FAMILY: sans-serif
+}
+OL {
+	FONT-FAMILY: sans-serif
+}
+DL {
+	FONT-FAMILY: sans-serif
+}
+UL {
+	FONT-FAMILY: sans-serif
+}
+H3 {
+	FONT-FAMILY: sans-serif
+}
+H4 {
+	FONT-FAMILY: sans-serif
+}
+H5 {
+	FONT-FAMILY: sans-serif
+}
+H6 {
+	FONT-FAMILY: sans-serif
+}
+IMG {
+	FONT-FAMILY: 'Linux Libertine','Georgia','Times',serif
+}
+A {
+	BORDER-BOTTOM: #aaa 1px solid
+}
+.firstHeading {
+	FONT-SIZE: 25pt; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 5px; LINE-HEIGHT: =
+28pt
+}
+.firstHeading {
+	OVERFLOW: hidden; BORDER-BOTTOM: #000000 2px solid
+}
+H2 {
+	OVERFLOW: hidden; BORDER-BOTTOM: #000000 2px solid
+}
+H3 {
+	MARGIN: 30px 0px 0px
+}
+H4 {
+	MARGIN: 30px 0px 0px
+}
+H5 {
+	MARGIN: 30px 0px 0px
+}
+H6 {
+	MARGIN: 30px 0px 0px
+}
+H2 {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+H3 {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+H4 {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+H5 {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+H6 {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; =
+PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+H2 {
+	FONT-SIZE: 18pt; MARGIN-BOTTOM: 0.25em; LINE-HEIGHT: 24pt
+}
+H3 {
+	FONT-SIZE: 13pt; LINE-HEIGHT: 20pt
+}
+H4 {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 15pt
+}
+H5 {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 15pt
+}
+H6 {
+	FONT-SIZE: 10pt; LINE-HEIGHT: 15pt
+}
+P {
+	FONT-SIZE: 10pt; MARGIN-TOP: 5px; TEXT-ALIGN: justify; LINE-HEIGHT: =
+16pt
+}
+P:before {
+	OVERFLOW: hidden; WIDTH: 120pt; DISPLAY: block
+}
+BLOCKQUOTE {
+	PADDING-LEFT: 20px; BORDER-LEFT: #000000 2px solid
+}
+OL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px =
+0px 0px 1.6em; PADDING-RIGHT: 0px
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 10px =
+0px 0px 1.6em; PADDING-RIGHT: 0px
+}
+OL LI {
+	FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px
+}
+UL LI {
+	FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px
+}
+TABLE OL LI {
+=09
+}
+TABLE UL LI {
+=09
+}
+.toc {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND: none =
+transparent scroll repeat 0% 0%; BORDER-BOTTOM-WIDTH: 0px; =
+PAGE-BREAK-AFTER: avoid; PAGE-BREAK-BEFORE: avoid; DISPLAY: table; =
+BORDER-TOP-WIDTH: 0px
+}
+.toc A {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: =
+0px; FONT-WEIGHT: normal; BORDER-TOP-WIDTH: 0px
+}
+.toc > UL > LI {
+	MARGIN-BOTTOM: 4px; FONT-WEIGHT: bold
+}
+.toc UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+.toc UL UL {
+	PADDING-LEFT: 30px
+}
+.toc LI.toclevel-1 > A {
+	FONT-SIZE: 10pt; FONT-WEIGHT: bold
+}
+.mw-jump-link {
+	DISPLAY: none
+}
+.toc .tocnumber {
+	DISPLAY: none
+}
+.printfooter {
+	FONT-SIZE: 10pt; BORDER-TOP: #000000 3px solid; MARGIN-TOP: 10px; =
+PADDING-TOP: 10px; CLEAR: both
+}
+#footer {
+	BORDER-TOP: #eeeeee 1px solid; MARGIN-TOP: 12px; PADDING-TOP: 5px
+}
+#footer-info {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; =
+PADDING-RIGHT: 0px
+}
+#footer-info LI {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 10pt; COLOR: #999; PADDING-BOTTOM: =
+10px; DISPLAY: block
+}
+#footer-info LI A {
+	COLOR: #999 !important
+}
+#footer-info-lastmod {
+	FONT-SIZE: 12pt; FONT-WEIGHT: bold; COLOR: #000000
+}
+
+}
+
+------=_NextPart_000_00A7_01D6E506.E53EC930--

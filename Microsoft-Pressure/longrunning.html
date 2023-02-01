@@ -1,0 +1,1664 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+ 
+ <meta charset="utf-8" />
+ <title>SQL Server Troubleshooting</title> 
+ <link rel="icon" href="sqlserver.icon" type="image/x-icon" >
+
+<style> 
+html {
+		
+		height:2300px;
+		background: #FFF; /* for non-css3 browsers */
+
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#FFF'); /* for IE */
+background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF)); /* for webkit browsers */
+background: -moz-linear-gradient(top,  #FFF,  #FFF); /* for firefox 3.6+ */ 
+} 
+	
+	body{
+	background-color: #FFF;	
+	-moz-box-shadow: 0 0 5px 5px #333;
+	-webkit-box-shadow: 0 0 5px 5px #333;
+	box-shadow: 0 0 5px 5px #333;
+	
+	height:2170px;	
+	width: 1490px;
+	top:10px;
+  	
+	padding-bottom:30px;
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+#floats1{
+	position:relative;
+	width:300px;
+		height:60px;
+	line-height:15px;	
+	margin:70px 0 0 580px;
+	clear:both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 29px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+#tip1{
+	position: relative;
+	
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	margin:-130px  0px  0 245px;
+	width:500px;
+	
+	
+	}
+ a:visited{
+	color: #000;
+	text-decoration: none;
+	}
+ a:hover{
+
+	font-weight:bold;
+	color: #090;
+
+}
+
+ a:link{
+	color: #000;
+
+
+}
+
+
+
+#floats3{
+	position:absolute;
+	width: 110px;
+	background-color: #F00;
+	height:65px;
+	margin:10px 0 0 675px;
+	float:left;
+	
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+box-shadow: 0 0 5px #888;
+
+
+}
+
+#back1 a:link{
+	color: #000;
+text-decoration: none;
+text-align:center;
+
+}
+#back1 a:hover{
+	text-align:center;
+background-color: #0C3;
+
+    display:table;
+	width: 110px;
+   height:65px;
+   font-size:17px;
+
+	color: #FFF;
+}
+
+#back1 a:visited{
+	color: #000;
+	text-decoration: none;
+	}
+	
+	.logomain{
+		position:relative;
+	margin-left: 0px;
+	margin-top:19px; 
+	margin-bottom:0px; 
+	
+	text-align:center;
+	
+}
+#arrow {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:-100px 0 0 715px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 #move1{
+		 position: relative;
+text-align:center;
+	width:120px;
+	height:115px;
+	line-height:90px;
+	left:0px;	
+	margin:145px 0 0 670px;
+	background-color: #999;
+		box-shadow: 0 0 5px #888;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #FFF;
+
+	 }
+	 
+	
+	
+	
+	
+	#arrow0 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:370px 0 0 60px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+
+	
+	
+#floats13{
+	position:absolute;
+width:350px;
+		height:80px;
+		
+	
+	margin:-93px 0 0 1050px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+
+
+}	
+	
+	
+	#floats23{
+	position:absolute;
+width:350px;
+		height:80px;
+		
+	
+	margin:-93px 0 0 100px;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:13px;
+	
+	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+
+
+}	
+	
+	
+	#arrow11 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:-50px 0 0 782px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 	
+	#arrow21 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:-50px 0 0 659px;
+		/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+#floats13 a:hover{
+background-color: #36F;
+ width:350px;
+		height:80px;
+    display:table;
+     font-size:14px;
+	font-weight:bold;
+	color: #FFF;
+	
+	
+}	
+	
+#floats23 a:hover{
+background-color: #36F;
+ width:350px;
+		height:80px;
+    display:table;
+     font-size:14px;
+	font-weight:bold;
+	color: #FFF;
+	
+	
+}	
+	
+	
+	
+	
+	
+		
+	#arrow8 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:140px 0 0 600px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 		
+	#arrow18 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:620px 0 0 600px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 
+	 	#arrow19 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:390px 0 0 600px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 
+	 	 	#arrow20 {
+	 font-size: 90px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:574px 0 0 513px;
+		/* Safari */
+-webkit-transform: rotate(-45deg);
+
+/* Firefox */
+-moz-transform: rotate(-45deg);
+
+/* IE */
+-ms-transform: rotate(-45deg);
+
+/* Opera */
+-o-transform: rotate(-45deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 
+	 
+	 	 	#arrow22 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:556px 0 0 440px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 	 	 	#arrow23 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:808px 0 0 440px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 	 	 	 	#arrow24 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:1059px 0 0 440px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 
+	 	 	 	#arrow32 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:700px 0 0 440px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	
+		 #floats11{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;
+	float:left;
+	margin:60px 0px 0 295px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+clear:both;
+
+
+}
+
+	
+		 #floats41{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;
+	float:left;
+	margin:60px 0px 0 220px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+
+}
+
+		 #floats42{
+	position:absolute;
+	width:300px;
+		height:142px;
+	line-height:5px;
+	float:left;
+	margin:300px 0px 0 840px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+
+
+		 #floats43{
+	position:absolute;
+	width:300px;
+		height:142px;
+	line-height:5px;
+	float:left;
+	margin:540px 0px 0 840px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+
+
+		 #floats21{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;
+	float:left;
+	margin:60px 0px 0 295px;
+	clear: left;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+
+
+
+		 #floats22{
+	position:relative;
+	width:300px;
+		height:60px;
+	line-height:15px;
+	float:left;
+	margin:100px 0px 0 295px;
+	clear: left;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+	
+	
+	
+			 #floats32{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;
+	float:left;
+	margin:80px 0px 0 300px;
+	clear: left;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+
+}
+
+
+	
+			 #floats36{
+	position: absolute;
+width:300px;
+		height:60px;
+	line-height:15px;
+	float:left;
+	margin:755px 0px 0  719px;
+	
+	
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+}
+
+	#tip8{
+	position: relative;
+	height:95px;
+	width:350px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:0px  0px  0 -27px;
+	
+	}
+	
+
+
+
+		#tip9{
+	position: relative;
+	height:95px;
+	width:350px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:0px  0px  0 -27px;
+	
+	}
+	
+	
+	#tip10{
+	position: relative;
+	height:108px;
+	width:350px;
+	line-height:3px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:-69px  0px  0 -247px;
+	
+	}
+	
+	#tip11{
+	position: relative;
+	height:145px;
+	width:350px;
+	line-height:3px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:-69px  0px  0 -247px;
+	
+	}
+	
+	#tip12{
+	position: relative;
+	height:145px;
+	width:350px;
+	line-height:3px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:-69px  0px  0 -247px;
+		
+	
+	}
+	
+		#tip13{
+	position: relative;
+	height:95px;
+	width:350px;
+	line-height:3px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:0px  0px  0 -27px;
+		
+	
+	}
+	
+			#tip14{
+	position: relative;
+	height:95px;
+	width:350px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:0px  0px  0 -27px;
+	
+	}
+	
+				#tip15{
+	position: relative;
+	height:118px;
+	width:350px;
+	
+	margin-top:0px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		margin:-60px  0px  0 190px;
+	
+	}
+	
+		#arrow9 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:150px 0 0 60px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	
+
+	
+	
+	
+	
+	
+	#line1
+{
+    position: absolute;
+    border-right: 5px solid black;
+    top: 0;
+    bottom: 0;
+		margin:477px 0 0 467px;
+		height:220px;
+				
+		/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}​
+
+
+	
+	
+	
+	
+	 #arrow2 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+	clear:both;
+	text-align:center;
+		margin:0px 0 0 0px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+
+		
+	 }
+			 
+			 
+	 
+	 #floats5{
+	position:relative;
+	width:400px;
+		height:205px;
+	line-height:15px;
+	float:left;
+	margin:80px 0px 0 530px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+text-align:center;
+
+
+
+
+}
+#tip2{
+	position: relative;
+	height:140px;
+	width:400px;
+	margin:-70px  0px  0 245px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	background-color: #FFF;
+		
+	
+	}
+
+
+
+
+#buttons1{
+	text-align:center;
+		
+}
+
+	 #arrow3 {
+	 font-size: 75px;
+	  position: absolute;
+	height:0px;
+
+text-align:center;
+		margin:610px 0 0 67px;
+		/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 
+	 #floats6{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;	
+	margin:502px 0 0 580px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+}
+#tip3{
+	position: relative;
+	height:195px;
+	width:560px;
+	margin:-155px  0px  0 195px;
+	
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	 
+	
+	}
+
+
+
+
+	 #arrow4 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+
+text-align:center;
+		margin:-350px 0 0 720px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 #floats7{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;	
+	margin:75px 0 0 580px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+}
+#tip4{
+	position: relative;
+	height:95px;
+	width:400px;
+	margin:-80px  0px  0 195px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	
+	}
+	
+	
+	
+	
+		 #arrow5 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+width:50px;
+text-align:center;
+		margin:-346px 0 0 720px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 #floats8{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;	
+	margin:80px 0 0 580px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+}
+#tip5{
+	position: relative;
+	height:95px;
+	width:400px;
+	margin:-80px  0px  0 195px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	
+	}
+	
+	
+	#contactcss{
+		text-align:right; 
+		
+		position:absolute;
+		margin:0px 0 0 0px;
+		width: 1470px;
+	
+	
+	background-color:#333333;
+	color:#FFF;
+	border:1px solid #000000;
+	height:40px;
+		font-family: Arial, Helvetica, sans-serif;
+	padding:10px;
+	padding-top:2px;
+	padding-bottom:89px;
+	
+	}
+		
+
+	
+
+
+
+		 #arrow6 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+
+text-align:center;
+		margin:-350px 0 0 720px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 #floats9{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;	
+	margin:80px 0 0 580px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+}
+#tip6{
+	position: relative;
+	height:130px;
+	width:400px;
+	margin:-80px  0px  0 195px;
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	
+	}
+
+
+
+
+		 #arrow7 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+
+text-align:center;
+		margin:-350px 0 0 720px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+	 #floats10{
+	position:relative;
+	width:300px;
+		height:142px;
+	line-height:15px;	
+	margin:80px 0 0 580px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	padding:10px 10px 20px 10px;	
+
+box-shadow: 0 0 5px #888;
+}
+#tip7{
+	position: relative;
+		height:95px;
+	width:400px;
+	margin:-80px  0px  0 195px;
+
+	clear:both;
+	background: #FFF;
+	color: #000;
+	border:groove;
+	text-align:center;
+	
+	}
+
+
+		 #arrow10 {
+	 font-size: 80px;
+	  position: absolute;
+	height:0px;
+
+text-align:center;
+		margin:-98px 0 0 720px;
+		/* Safari */
+-webkit-transform: rotate(0deg);
+
+/* Firefox */
+-moz-transform: rotate(0deg);
+
+/* IE */
+-ms-transform: rotate(0deg);
+
+/* Opera */
+-o-transform: rotate(0deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+		
+	 }
+
+
+#footer{
+	position:absolute;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:5px;
+	background-color:#333333;
+	width:1490px;
+	margin-left:0px;
+	margin-top:1600px;
+	font-size:13px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+	color:#FFF;
+	
+	
+	clear: both;
+	height: 24px;
+
+	}
+	
+	
+</style>
+</head>
+
+<body>
+<!-- Header right begin-->
+<div id="contactcss" >
+    Need Help? Contact CSS   
+       <div style= "vertical-align:bottom;"><a href="mailto:css@email&phone ?Subject= CSS"style="color:#FF0000";> css@email or num</a>
+  </div></div>
+<!-- Header right end-->
+<div class="logomain">
+<img src="SQLServerimg1.png" width="500" height="129" alt="team_logo_lar"></div>
+<div id="back1">
+<div id="floats3">
+<a href="../open_me.html">
+<h3>Start Over</h3></a>
+  </div>
+</div>
+ 
+ <div id="move1">
+ <p>Start Here</p></div>
+<div id="arrow">
+ <p>&darr;</p></div>
+ 
+ 
+ 
+ 
+<div id="floats1">
+<p>
+Query is Running long i.e. CPU is being used   </p>
+</div>
+
+<div style="border-left:5px #000 solid; position: absolute; margin-left:377px; margin-top:-202px;  height:400px; 
+-webkit-transform: rotate(90deg);
+/* Firefox */
+-moz-transform: rotate(90deg);
+/* IE */
+-ms-transform: rotate(90deg);
+/* Opera */
+-o-transform: rotate(90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)" > 
+</div>
+
+
+
+<div style="border-left:5px #000 solid; position:absolute; margin-left:175px; margin-top:-5px;  height:617px; clear:both;" > 
+</div>
+
+
+
+
+<div style="border-left:5px #000 solid; position: absolute; margin-left:718px; margin-top:138px;  height:617px; clear:both;" > 
+</div>
+
+
+<div id="arrow0">
+ <p>&darr;</p></div>
+
+
+ 
+<div id="arrow8">
+ <p>&darr;</p></div>
+
+
+<div id="arrow18">
+ <p>&darr;</p></div>
+ 
+ 
+ 
+<div id="arrow19">
+ <p>&darr;</p></div> 
+
+
+ 
+<div id="floats11">
+<p>Spinlocks</p>
+<div id="buttons1"><button onclick="myFunction8()"><h4>SHOW TIP</h4></button></div>
+<div id="tip8" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:spinlocks.sql" download ><h4>Open/Download</h4></a> </p>
+
+
+</div>
+<script>
+function myFunction8() {
+    var x = document.getElementById('tip8');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+ 
+ 
+ 
+ 
+ <div id="floats41">
+<p>Out of date Statistics/ Bad Cardinality estimates</p>
+<div id="buttons1"><button onclick="myFunction13()"><h4>SHOW TIP</h4></button></div>
+<div id="tip13" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:Statistics.sql" download ><h4>Open/Download</h4></a> </p>
+
+
+</div>
+<script>
+function myFunction13() {
+    var x = document.getElementById('tip13');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+
+ 
+<div id="floats42">
+<p>Missing/Inappropriate Indexes</p>
+<p>Atypical parameter</p>
+<div id="buttons1"><button onclick="myFunction14()"><h4>SHOW TIP</h4></button></div>
+<div id="tip14" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:Missing_Index.sql" download ><h4>Open/Download</h4></a> </p>
+
+
+</div>
+<script>
+function myFunction14() {
+    var x = document.getElementById('tip14');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+
+
+ 
+ 
+  
+<div id="floats43">
+<p>Hints/Plan Guides </p>
+<p>SET option Change</p>
+<p>Optimizer Timeout</p>
+<div id="buttons1"><button onclick="myFunction15()"><h4>SHOW TIP</h4></button></div>
+<div id="tip15" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:cache_plans.sql" download ><h4>Open/Download</h4></a> </p>
+<p><u>
+TIP</u></p>
+<p>Please use the script or Run a </p><p><u>Profile Trace</u> if more data is needed</p>
+
+</div>
+<script>
+function myFunction15() {
+    var x = document.getElementById('tip15');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+ 
+ 
+ 
+<div id="floats21">
+<p>Long Compilation</p>
+<div id="buttons1"><button onclick="myFunction9()"><h4>SHOW TIP</h4></button></div>
+<div id="tip9" style="display: none;">
+<p>Click to view the Long Compilation script</p>
+<a href="file:Compilation_Info.sql" download ><h4>Open/Download</h4></a> </p>
+
+
+</div>
+<script>
+function myFunction9() {
+    var x = document.getElementById('tip9');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+
+
+
+<div id="floats22">
+<p>Long Execution</p>
+</div>
+
+<div id="arrow20">
+ <p>&darr;</p></div>
+ 
+ <div id="arrow22">
+ <p>&darr;</p></div>
+
+<div id="floats36">
+<p>Sub Optimal Execution Plan </p>
+</div>
+
+
+<div id="floats32">
+<p>Poorly Designed Query</p>
+<div id="buttons1"><button onclick="myFunction10()"><h4>SHOW TIP</h4></button></div>
+<div id="tip10" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:Check_for_Worst_Performing_Query.sql" download ><h4>Open/Download</h4></a> </p>
+<p><u>
+TIP</u></p>
+<p>Query text</p>
+<p>Profiler trace</p>
+
+
+ 
+ 
+</div>
+<script>
+function myFunction10() {
+    var x = document.getElementById('tip10');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+
+
+<div id="arrow23">
+ <p>&darr;</p></div>
+
+<div id="floats32">
+  <div id="floats2">
+    <p> Query doing Computations/While loops</p>
+    <div id="buttons2">
+      <button onClick="myFunction11()">
+        <h4>SHOW TIP</h4>
+      </button>
+    </div>
+    <div id="tip11" style="display: none;">
+      <p>Click to view the below script</p>
+      <h4><a href="file:Identify_Running_SQL.sql" download>Open/Download</a></h4><p><u>
+TIP</u></p>
+<p>Please use the script or Run a </p><p><u>Profile Trace</u> if more data is needed</p>
+     
+    </div>
+    <script>
+function myFunction11() {
+    var x = document.getElementById('tip11');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+  </script>
+  </div>
+  <p>&nbsp;</p>
+</div>
+
+
+<div id="arrow24">
+ <p>&darr;</p></div>
+
+
+
+<div id="floats32">
+<p>CLR/Xproc/COM object</p>
+<div id="buttons1"><button onclick="myFunction12()"><h4>SHOW TIP</h4></button></div>
+<div id="tip12" style="display: none;">
+<p>Click to view the below script</p>
+<a href="file:Identify_Running_SQL2.SQL" download ><h4>Open/Download</h4></a> </p>
+<p><u>
+TIP</u></p>
+<p>Please use the script or Run a </p><p><u>Profile Trace</u> if more data is needed</p>
+
+</div>
+<script>
+function myFunction12() {
+    var x = document.getElementById('tip12');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</div>
+
+
+
+<div id="arrow9">
+ <p>&darr;</p></div>
+
+
+
+<div id="arrow11">
+ <p>&darr;</p></div>
+
+<div id="floats13">
+ <a href="nextissues.html">
+<h4><p>Next Page</p>
+SQLTRACE LOCK </h4>
+</a>
+</div>
+
+
+<div id="arrow21">
+ <p>&darr;</p></div>
+ <div id="floats23">
+ <a href="notresponding.html">
+<h4><p>Pervious Page</p>
+Query is Waiting
+ i.e. CPU is not being used  </h4>
+</a>
+</div>
+ 
+
+
+
+<div id="arrow3">
+ <p>&darr;</p></div>
+
+
+
+
+
+
+
+
+
+<div id="footer">2017 Created by SQL PFEs Victor A. & Yvonne V.</div>
+</body>
+</html>

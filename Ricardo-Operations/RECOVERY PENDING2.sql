@@ -1,0 +1,23 @@
+SELECT name, state_desc from sys.databases
+GO
+ALTER DATABASE WPC_837P SET EMERGENCY;
+GO
+ALTER DATABASE WPC_837P set single_user
+GO
+DBCC CHECKDB (WPC_837P, REPAIR_ALLOW_DATA_LOSS) WITH ALL_ERRORMSGS;
+GO 
+ALTER DATABASE WPC_837P set multi_user
+GO
+SELECT name, state_desc from sys.databases ORDER BY name DESC
+GO
+
+--OPTION #2
+--THESE COMMANDS WILL CAUSE THE SERVER TO GET RID OF THE CORRUPT LOG AND BUILD A NEW ONE AUTOMATICALLY.
+ALTER DATABASE [DBName] SET EMERGENCY;
+GO
+ALTER DATABASE [DBName] set multi_user
+GO
+EXEC sp_detach_db '[DBName]'
+GO
+EXEC sp_attach_single_file_db @DBName = '[DBName]', @physname = N'[mdf path]'
+GO
