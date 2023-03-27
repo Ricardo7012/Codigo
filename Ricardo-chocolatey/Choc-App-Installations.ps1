@@ -4,7 +4,7 @@
  
 ## https://chocolatey.org/install
 
-Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 choco install sql-server-management-studio --version 15.0.18424.0 -y
 choco install virtualbox --version 6.1.34 -y
@@ -19,6 +19,11 @@ choco install notepadplusplus --version 8.4.2 -y
 choco install keepass --version 2.51.1 -y
 choco install powershellplus --version 11.50.0.42619 -y
 choco install sqltoolbelt --version 2022.06.28 -y
+choco install microsoftazurestorageexplorer
+choco install azure-data-studio
+choco install azdata-cli
+choco install azure-data-studio-sql-server-admin-pack
+choco install github-desktop
 
 ##
 ## SSMS - https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16

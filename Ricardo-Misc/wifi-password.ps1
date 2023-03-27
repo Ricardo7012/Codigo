@@ -1,0 +1,1 @@
+﻿netsh wlan show profile R12_5G1 key=clear
