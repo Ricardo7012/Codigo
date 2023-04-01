@@ -1,12 +1,12 @@
-﻿CLS
+﻿Clear-Host
 # LAST BOOT TIME
-Get-WmiObject win32_operatingsystem | select csname, @{LABEL=’LastBootUpTime’ ;EXPRESSION={$_.ConverttoDateTime($_.lastbootuptime)}}
+Get-WmiObject win32_operatingsystem | Select-Object csname, @{LABEL=’LastBootUpTime’ ;EXPRESSION={$_.ConverttoDateTime($_.lastbootuptime)}}
 Write-Host -ForegroundColor "green" "*************************************************************************************************************************"
 
 #RESTART
 Write-Host -ForegroundColor "green" "*************************************************************************************************************************"
 gwmi win32_ntlogevent -filter "LogFile='System' and EventCode='1074' and Message like '%restart%'" | 
-	select User,@{n="Time";e={$_.ConvertToDateTime($_.TimeGenerated)}}
+	Select-Object User,@{n="Time";e={$_.ConvertToDateTime($_.TimeGenerated)}}
 Write-Host -ForegroundColor "green" "*************************************************************************************************************************"
 
 #1076
