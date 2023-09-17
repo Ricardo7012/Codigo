@@ -39,26 +39,26 @@ choco install planexplorerssmsaddin -y
 ##################################################################
 ## UNINSTALL SECTION
 ##################################################################
-choco uninstall mobaxterm -y
-choco uninstall studio3t -y
-choco uninstall mongodb-compass -y
-choco uninstall windirstat -y
-choco uninstall winscp -y
-choco uninstall notepadplusplus -y
-choco uninstall keepass -y
-choco uninstall powershellplus -y
+choco uninstall mobaxterm -s -f
+choco uninstall studio3t -s -f
+choco uninstall mongodb-compass -s -f
+choco uninstall windirstat -s -f
+choco uninstall winscp -s -f
+choco uninstall notepadplusplus -s -f
+choco uninstall keepass -s -f
+choco uninstall powershellplus -s -f
 
-choco uninstall sqltoolbelt -y
-choco uninstall microsoftazurestorageexplorer -y
-choco uninstall azure-data-studio -y
-choco uninstall azdata-cli -y
-choco uninstall azure-data-studio-sql-server-admin-pack -y
-choco uninstall github-desktop -y
+choco uninstall sqltoolbelt -s -f
+choco uninstall microsoftazurestorageexplorer -s -f
+choco uninstall azure-data-studio -s -f
+choco uninstall azdata-cli -s -f
+choco uninstall azure-data-studio-sql-server-admin-pack -s -f
+choco uninstall github-desktop -s -f
 
-choco uninstall sql-server-management-studio -y
-#choco uninstall virtualbox -y
-choco uninstall sqlsentryplanexplorer  -y
-choco uninstall planexplorerssmsaddin -y
+choco uninstall sql-server-management-studio -s -f
+#choco uninstall virtualbox -s -f
+choco uninstall sqlsentryplanexplorer  -s -f
+choco uninstall planexplorerssmsaddin -s -f
 
 ##
 ## SSMS - https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
