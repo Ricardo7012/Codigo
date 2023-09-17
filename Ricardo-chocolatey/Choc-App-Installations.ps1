@@ -7,6 +7,10 @@
 
 #Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
+
+##################################################################
+## INSTALL SECTION
+##################################################################
 choco install mobaxterm -y
 choco install studio3t -y
 choco install mongodb-compass -y
@@ -28,6 +32,34 @@ choco install sql-server-management-studio -y
 choco install sqlsentryplanexplorer  -y
 choco install planexplorerssmsaddin -y
 
+##################################################################
+## REBOOT 
+##################################################################
+
+##################################################################
+## UNINSTALL SECTION
+##################################################################
+choco uninstall mobaxterm -y
+choco uninstall studio3t -y
+choco uninstall mongodb-compass -y
+choco uninstall windirstat -y
+choco uninstall winscp -y
+choco uninstall notepadplusplus -y
+choco uninstall keepass -y
+choco uninstall powershellplus -y
+
+choco uninstall sqltoolbelt -y
+choco uninstall microsoftazurestorageexplorer -y
+choco uninstall azure-data-studio -y
+choco uninstall azdata-cli -y
+choco uninstall azure-data-studio-sql-server-admin-pack -y
+choco uninstall github-desktop -y
+
+choco uninstall sql-server-management-studio -y
+#choco uninstall virtualbox -y
+choco uninstall sqlsentryplanexplorer  -y
+choco uninstall planexplorerssmsaddin -y
+
 ##
 ## SSMS - https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 ##
@@ -47,6 +79,7 @@ choco install planexplorerssmsaddin -y
 ## https://keepass.info/download.html
 ##
 ## https://studio3t.com/download-thank-you/?OS=win64
+##
 ##
 ## https://www.idera.com/productssolutions/freetools/powershellplus
 ##
