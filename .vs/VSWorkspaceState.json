@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Ricardo-Python",
     "\\Ricardo-Redis",
     "\\Ricardo-Redis\\SampleData"
   ],
-  "SelectedNode": "\\Ricardo-Python\\Convert F2C.py",
+  "SelectedNode": "\\Ricardo-Redis\\SampleData\\SampleData.md",
   "PreviewInSolutionExplorer": false
 }
