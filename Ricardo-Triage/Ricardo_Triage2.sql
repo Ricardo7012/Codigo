@@ -1,5 +1,6 @@
-USE DBAKit
+USE Ricardo
 GO
+SET TRAN ISOLATION LEVEL READ UNCOMMITTED;
 
 /**********************************************************
 WHERE, WHO, WHAT!
@@ -21,7 +22,7 @@ GO
 WHO'S DOING WHAT WHERE
 **********************************************************/
 DECLARE @VersionDate DATETIME;
-EXEC DBAKit.dbo.sp_BlitzWho @Help = 0,                         -- tinyint
+EXEC Ricardo.dbo.sp_BlitzWho @Help = 0,                         -- tinyint
 						--@@Spid = 
                      @ShowSleepingSPIDs = 1,            -- tinyint
                      @ExpertMode = 1,                -- bit
@@ -62,20 +63,12 @@ GO
 /**********************************************************
 Which queries have been using the most resources?
 **********************************************************/
-EXEC DBAKit.dbo.sp_BlitzCache @SortOrder='CPU', @ExpertMode = 1
+EXEC Ricardo.dbo.sp_BlitzCache @SortOrder='CPU', @ExpertMode = 1
 GO 
 /**********************************************************
 Are my indexes designed for speed?
 **********************************************************/
---EXEC sp_BlitzIndex @DatabaseName ='Hedis_Online', @TableName='LabClaim'
---GO
-EXEC DBAKit.dbo.sp_BlitzIndex @DatabaseName ='HSP_RPT', @TableName='Claim_Master'
-GO
-EXEC DBAKit.dbo.sp_BlitzIndex @DatabaseName ='HSP_RPT', @TableName='Claim_Details'
-GO
-EXEC DBAKit.dbo.sp_BlitzIndex @DatabaseName ='HSP_RPT', @TableName='Claim_Results'
-GO
-EXEC DBAKit.dbo.sp_BlitzIndex @DatabaseName ='HSP', @TableName='InputBatches'
+EXEC Ricardo.dbo.sp_BlitzIndex @DatabaseName ='x', @TableName='x'
 GO
 
 -- THIS IS ONLY IF YOU NEED TO SEE ALL SERVER CONFIGURATION 
@@ -110,9 +103,6 @@ ORDER BY cplan.usecounts DESC;
 --The .NET app calls. Parameters.Add without setting the parameter size 
 -- many things that give SQL Server amnesia.  
 **********************************************************/
---CHECK: 
-SET TRAN ISOLATION LEVEL READ UNCOMMITTED;
-
 SELECT TOP 50
        creation_date = CAST(creation_time AS DATE)
      , creation_hour = CASE

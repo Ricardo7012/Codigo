@@ -5,7 +5,7 @@ CREATE TABLE #VLF_temp (
 	, FileSize NUMERIC(20, 0)
 	, StartOffset BIGINT
 	, FSeqNo BIGINT
-	, STATUS CHAR(1)
+	, [STATUS] CHAR(1)
 	, Parity VARCHAR(4)
 	, CreateLSN NUMERIC(25, 0)
 	)
@@ -61,12 +61,12 @@ DEALLOCATE db_cursor
 /*we are only interested in the top ten rows because having more could look funky in an Excel graph*/
 /*we are currently only interested in db's with more than 50 VLFs*/
 SELECT TOP 10 @@servername AS 'Server Name'
-	, NAME AS 'DB Name'
+	, [NAME] AS 'DB Name'
 	, vlf_count AS 'VLF Count'
 FROM #VLF_db_total_temp
 WHERE vlf_count > 50
 ORDER BY vlf_count DESC
 
-/*drop the tables*/
+--/*drop the tables*/
 DROP TABLE [#VLF_temp]
 DROP TABLE [#VLF_db_total_temp]

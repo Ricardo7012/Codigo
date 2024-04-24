@@ -1,5 +1,6 @@
 -- Check Index Fragmentation
-
+use AdventureWorks2019
+go
 SET NOCOUNT ON
 
 DECLARE @@ObjectName SYSNAME

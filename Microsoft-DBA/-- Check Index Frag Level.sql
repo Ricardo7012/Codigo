@@ -1,5 +1,6 @@
 -- Check Index Frag Level
-
+use AdventureWorks2019
+go
 SELECT @@SERVERNAME AS [ServerName]
 	, DB_NAME() AS [DatabaseName]
 	, SCHEMA_NAME([sObj].[schema_id]) AS [SchemaName]

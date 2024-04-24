@@ -13,7 +13,7 @@ ORDER BY wait_time_ms DESC;
 SELECT @@ServerName AS SN;
 
 --
-EXEC dbakit.dbo.sp_BlitzFirst 
+EXEC dbo.sp_BlitzFirst 
  @SinceStartup = 1
 -- http://www.brentozar.com/go/way1 
 -- This URL will not work in IEHP domain since it goes to google docs
@@ -25,7 +25,7 @@ FROM sys.dm_io_virtual_file_stats(NULL, NULL);
 --SECOND RESULTSET
 -- SQL SERVER - WINDOWS - FILTER DRIVER- ENCRYPTION - VMWARE - OS - FIBER ADAPTER - STORAGE FABRIC - SAN
 -- https://www.codyhosterman.com/2017/02/understanding-vmware-esxi-queuing-and-the-flasharray/
-EXEC dbakit.dbo.sp_BlitzFirst 
+EXEC dbo.sp_BlitzFirst 
 @SinceStartup = 1;
 
 -- THIS IS YOUR DISK IO TEST DATA! BUT DOESNT TELL US WHY BACKUPS ARE SLOW
@@ -34,7 +34,7 @@ SELECT TOP 100
 FROM msdb.dbo.backupset
 ORDER BY 1 DESC;
 
-EXEC dbakit.dbo.sp_BlitzBackups; -- = 14 DAYS BY DEFAULT
+EXEC dbo.sp_BlitzBackups; -- = 14 DAYS BY DEFAULT
 -- get the most important and put in 
 -- http://www.brentozar.com/go/way3
 -- RPO WORST CASE

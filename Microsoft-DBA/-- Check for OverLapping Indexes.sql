@@ -1,5 +1,6 @@
 -- Check for OverLapping Indexes
-
+use AdventureWorks2019
+go
 DECLARE @dbid INT
 DECLARE @dbName VARCHAR(100);
 

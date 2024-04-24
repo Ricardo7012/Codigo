@@ -18,7 +18,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 GO
 SET STATISTICS TIME, IO ON;
 GO
-use gbdrepo
+use AdventureWorksLT2019
 go
 SELECT dbtables.[name]                       AS [Table]
      , dbschemas.[name]                      AS [Schema]
@@ -29,7 +29,7 @@ SELECT dbtables.[name]                       AS [Table]
      , indexstats.page_count
      , 8 * SUM(indexstats.page_count)        AS [Indexsize(KB)]
      , 8 * SUM(indexstats.page_count) / 1024 AS [Indexsize(MB)]
-FROM sys.dm_db_index_physical_stats(DB_ID('gbdrepo'), NULL, NULL, NULL, NULL) AS indexstats
+FROM sys.dm_db_index_physical_stats(DB_ID('AdventureWorksLT2019'), NULL, NULL, NULL, NULL) AS indexstats
     INNER JOIN sys.tables                                                 dbtables
         ON dbtables.[object_id] = indexstats.[object_id]
     INNER JOIN sys.schemas                                                dbschemas
@@ -53,8 +53,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
 GO
 SET STATISTICS TIME, IO ON;
 GO
-use gbdrepo
-go
+
 SELECT OBJECT_NAME(object_id)
      , index_id
      , index_type_desc
@@ -62,7 +61,7 @@ SELECT OBJECT_NAME(object_id)
      , avg_fragmentation_in_percent
      , avg_page_space_used_in_percent
      , page_count
-FROM sys.dm_db_index_physical_stats(DB_ID(N'gbdrepo'), NULL, NULL, NULL, NULL) -- SEE ALL
+FROM sys.dm_db_index_physical_stats(DB_ID(N'AdventureWorks2019'), NULL, NULL, NULL, NULL) -- SEE ALL
 --WHERE page_count > 999
 --AND avg_fragmentation_in_percent > 30 
 ORDER BY avg_fragmentation_in_percent DESC;
@@ -92,7 +91,7 @@ GO
 /********************************************************************
 	SIZES
 ********************************************************************/
-USE HSP;
+USE AdventureWorks2019;
 GO
 SELECT tn.[name]                     AS [Table name]
      , ix.[name]                     AS [Index name]

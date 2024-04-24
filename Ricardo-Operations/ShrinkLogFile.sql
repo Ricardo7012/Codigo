@@ -3,10 +3,10 @@ FROM sys.master_files
 -- https://mitchellpearson.com/2015/01/26/the-transaction-log-for-database-is-full-due-to-replication-replication-not-enabled-cdc/ 
 
 DBCC SQLPERF(LOGSPACE)
-DBCC LOG(HSP)
+DBCC LOG(adventureworks2019)
 
 SELECT name, log_reuse_wait_desc FROM master.sys.databases WHERE name = 'hsp'
-USE HSP
+USE adventureworks2019
 go
 EXEC sys.sp_cdc_disable_db;  
 GO  
@@ -15,7 +15,7 @@ USE [master]
 GO
 --ALTER DATABASE HSP_MO SET EMERGENCY
 GO
-USE EBM
+USE adventureworks2019
 GO
 -- https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/sp-repldone-transact-sql?view=sql-server-ver15
 EXEC sp_repldone @xactid = NULL, @xact_segno = NULL, @numtrans = 0, @time= 0, @reset = 1
@@ -23,7 +23,7 @@ EXEC sp_repldone @xactid = NULL, @xact_segno = NULL, @numtrans = 0, @time= 0, @r
 ALTER DATABASE EBM SET RECOVERY SIMPLE WITH NO_WAIT
 DBCC SHRINKFILE(EBM_log, 1024)
 
-USE EBM;
+USE adventureworks2019;
 GO
 CHECKPOINT;
 GO
@@ -40,14 +40,14 @@ GO
 
 BACKUP DATABASE HSP_MO TO DISK='NUL:'
 GO
-BACKUP LOG HSP_MO TO DISK='NUL:' WITH STATS=1
+BACKUP LOG adventureworks2019_log TO DISK='NUL:' WITH STATS=1
 GO
 SELECT * FROM sys.databases
 GO
 SELECT COUNT(*) FROM fn_dblog(NULL, NULL)
 GO
 
-USE []
+USE [AdventureWorks2019]
 GO
 select [Current LSN],
        [Operation],
@@ -59,7 +59,7 @@ select [Current LSN],
 FROM   fn_dblog(null,null)
 
 
-USE []
+USE [AdventureWorks2019]
 go
 SELECT
  [Current LSN],

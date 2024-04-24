@@ -24,7 +24,7 @@
 USE master
 GO
 
-DECLARE @DBName VARCHAR(64) = 'MEMBER'
+DECLARE @DBName VARCHAR(64) = 'AdventureWorks2019'
 
 DECLARE @ErrorLog AS TABLE([LogDate] CHAR(24), [ProcessInfo] VARCHAR(64), [TEXT] VARCHAR(MAX))
 

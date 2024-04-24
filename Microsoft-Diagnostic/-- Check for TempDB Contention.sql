@@ -1,5 +1,5 @@
 -- Check for TempDB Contention
-
+-- https://www.sqlskills.com/help/waits/pageiolatch_sh/
 SELECT session_id AS 'Session ID'
 	, wait_type AS 'Wait Type'
 	, wait_duration_ms AS 'Wait Duration (MS)'

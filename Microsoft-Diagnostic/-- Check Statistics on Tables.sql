@@ -1,5 +1,6 @@
 -- Check Statistics on Tables
-
+Use AdventureWorks2019
+go
 SELECT STATS_DATE(i.object_id, i.index_id) AS 'Last Statistics Date'
 	, o.NAME AS 'Table Name'
 	, i.NAME AS 'Index Name'

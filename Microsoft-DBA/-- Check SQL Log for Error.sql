@@ -12,8 +12,8 @@ DECLARE @SearchString1 VARCHAR(255) = NULL
 
 SET @ErrorLog = 0
 SET @LogType = 1
-SET @SearchString0 = 'All rights'
-SET @SearchString1 = ''
+SET @SearchString0 = 'SQL'
+SET @SearchString1 = 'Shutdown'
 
 
 

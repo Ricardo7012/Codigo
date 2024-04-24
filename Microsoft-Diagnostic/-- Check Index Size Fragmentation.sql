@@ -1,5 +1,6 @@
 -- Check Index Size & Fragmentation
-
+Use AdventureWorks2019
+go
 SELECT @@SERVERNAME AS [Server Name]
 	, DB_NAME() AS [Databas Name]
 	, SCHEMA_NAME([sObj].[schema_id]) AS [Schema Name]

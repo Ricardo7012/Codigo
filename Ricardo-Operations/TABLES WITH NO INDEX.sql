@@ -1,5 +1,5 @@
 --TABLES WITH NO INDEX
-USE HSP_Supplemental;
+USE AdventureWorks2019;
 GO
 ;
 WITH cte

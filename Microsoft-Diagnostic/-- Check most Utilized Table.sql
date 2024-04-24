@@ -1,5 +1,6 @@
 -- Check most Utilized Table
-
+use AdventureWorks2019
+go
 IF OBJECT_ID('tempdb..#Temp') IS NOT NULL
 	DROP TABLE #Temp
 GO

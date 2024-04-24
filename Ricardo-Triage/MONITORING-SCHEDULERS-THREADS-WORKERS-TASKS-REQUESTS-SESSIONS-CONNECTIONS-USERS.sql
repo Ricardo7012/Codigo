@@ -1,7 +1,8 @@
 
-EXEC DBAKit.dbo.sp_blitzwho	@ShowSleepingSpids = 0, @expertmode=1
+EXEC Ricardo.dbo.sp_blitzwho @ShowSleepingSpids = 0, @expertmode=1
 GO
-
+use AdventureWorks2019
+go
  --@get_plans=0, @show_system_spids = 0
 DECLARE @i AS int = 149
 -- MONITORING-SCHEDULERS-THREADS-WORKERS-TASKS-REQUESTS-SESSIONS-CONNECTIONS-USERS

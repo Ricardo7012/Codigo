@@ -3,7 +3,7 @@ SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
 
 SELECT compatibility_level
 FROM sys.databases
-WHERE name = 'EDW';
+WHERE name = 'Adventureworks2019';
 
 SELECT @@servername as SERVERNAME, sqlserver_start_time FROM sys.dm_os_sys_info
 

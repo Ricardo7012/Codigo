@@ -1,4 +1,6 @@
 -- Check Index Names and Pages
+use AdventureWorks2019
+go
 
 Select object_name(i.object_id) As 'Table Name'
     , i.name As 'Index Name'

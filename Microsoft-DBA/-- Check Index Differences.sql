@@ -1,5 +1,6 @@
 -- Check Index Differences
-
+use AdventureWorks2019
+go
 SELECT sch.NAME + '.' + t.NAME AS 'Table Name'
 	, i.NAME AS 'Index Name'
 	, i.type_desc AS 'Index Type'

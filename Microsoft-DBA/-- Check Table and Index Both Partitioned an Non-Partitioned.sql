@@ -1,4 +1,6 @@
 -- Check Table and Index Both Partitioned an Non-Partitioned
+use AdventureWorks2019
+go
 
 -- Partitioned Table and Index Details
 SELECT OBJECT_NAME(p.object_id) AS ObjectName
