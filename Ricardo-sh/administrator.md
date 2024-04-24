@@ -159,15 +159,15 @@ acl genpass
 acl setuser default >cf4955ed403d6b266d84aa1a3fcf47cbf6f3bb9ed056f797eea64c0f02e769f7 on sanitize-payload allchannels allkeys +@all
 acl setuser default > on allchannels allkeys +@all
 
-acl setuser i4682 >9948a4026b6af70514f0d520ef686c3a142b4d0b618eef14eced2508dcc0f204 on allchannels allkeys +@all
+acl setuser user >9948a4026b6af70514f0d520ef686c3a142b4d0b618eef14eced2508dcc0f204 on allchannels allkeys +@all
 
-acl setuser tyk_usr >93ad5f8d7860143c253caa15ac98e5708080034b50a660a79977d77ae1be180d on allchannels allkeys +@all
+acl setuser _usr >93ad5f8d7860143c253caa15ac98e5708080034b50a660a79977d77ae1be180d on allchannels allkeys +@all
 
-acl setuser prometheus_usr >70718d85a5538e2bdf20ba821bf04ae9ac1838e3f352a1e634382fee7a209a15 ~* +get
-acl setuser prometheus_usr >70718d85a5538e2bdf20ba821bf04ae9ac1838e3f352a1e634382fee7a209a15 on allchannels allkeys +@all
+acl setuser _usr >70718d85a5538e2bdf20ba821bf04ae9ac1838e3f352a1e634382fee7a209a15 ~* +get
+acl setuser _usr >70718d85a5538e2bdf20ba821bf04ae9ac1838e3f352a1e634382fee7a209a15 on allchannels allkeys +@all
 
 
-redis-cli ACL DELUSER prometheus_user
+redis-cli ACL DELUSER _user
 
 sudo vi /etc/users.acl
 
@@ -208,11 +208,11 @@ acl setuser tyk_usr >93ad5f8d7860143c253caa15ac98e5708080034b50a660a79977d77ae1b
 
 acl setuser prometheus_usr >VVJX/JfSD0!AP0 on allchannels allkeys +@all
 
-acl setuser adm_i4682 >9948a4026b6af70514f0d520ef686c3a142b4d0b618eef14eced2508dcc0f204 on allchannels allkeys +@all
+acl setuser user >9948a4026b6af70514f0d520ef686c3a142b4d0b618eef14eced2508dcc0f204 on allchannels allkeys +@all
 
-user adm_i4682 on #9c5bdefe3ab8b10948471dd96ada474fec46a5a501d000472f20960f7a4f486a ~* &* +@all
+user user on #9c5bdefe3ab8b10948471dd96ada474fec46a5a501d000472f20960f7a4f486a ~* &* +@all
 user default on nopass ~* &* +@all
-user prometheus_usr on #927646c22893ecc1dc07c45132d9dd9c9a43adf248caa3fad01cd613bbf49526 ~* &* +@all
-user tyk_usr on #f1ced2595880302c4f1b62b8880537d8d6134768b1fce8d17ad8450e375c01cc ~* &* +@all
+user _usr on #927646c22893ecc1dc07c45132d9dd9c9a43adf248caa3fad01cd613bbf49526 ~* &* +@all
+user _usr on #f1ced2595880302c4f1b62b8880537d8d6134768b1fce8d17ad8450e375c01cc ~* &* +@all
 
 ```
