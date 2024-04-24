@@ -1,0 +1,1 @@
+ALTER AUTHORIZATION ON DATABASE::[IEHP_HspRptDev] to _system_admin;

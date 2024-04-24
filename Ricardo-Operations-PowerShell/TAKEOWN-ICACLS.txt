@@ -1,0 +1,28 @@
+cls
+hostname
+
+Get-CimInstance -ClassName win32_operatingsystem | select csname, lastbootuptime
+
+cd e:\
+.\PsExec.exe -s -i cmd.exe 
+
+TAKEOWN /F E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events /R /D Y
+
+ICACLS E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\ /reset /T
+ICACLS E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\ /setowner everyone
+ICACLS E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\ /grant everyone:F
+
+ICACLS E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\archive /T /C
+
+ICACLS E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\archive /grant Everyone:F /t /c /q
+
+## mkdir E:\Empty
+## E:\>robocopy E:\Empty "E:\qvsqllit01backups\Linux\Thoughtspot\backups" /purge
+## rmdir E:\Empty
+
+
+Remove-Item -Force -Path E:\qvsqllit01backups\Linux\Thoughtspot\backups\_x_periodic_20200718T070000_705011\hdfs_data\sage\uber\usage_events\
+
+TAKEOWN /R /A /F E:\qvsqllit01backups /D N
+
+ICACLS E:\qvsqllit01backups /grant everyone:F /T /C

@@ -1,0 +1,274 @@
+﻿-- ======================================================
+-- troubleshooting with Query Data Store
+-- ======================================================
+
+/*Use the Query Store to Identify resource usage during a set period*/
+-- determine the investigation interval
+declare @starttime as datetime = '12/18/2018 00:00' -- define UTC start date/time 
+declare @endtime as datetime = '12/20/2018 14:25' -- define UTC end date/time 
+
+--Top Consumers (ordered by CPU by default) with SQL TEXT and other useful info.
+--Can narrow the query down to last x hours or days, or a specific timeframe
+SELECT TOP 50
+q.query_id,
+rs.count_executions as [Execution count],
+rs.avg_duration/1000 as [Avg_Duration(ms)],
+rs.max_duration/1000 as [Max_Duration(ms)],
+rs.min_duration/1000 as [Min_Duration(ms)],
+rs.avg_cpu_time/1000 as [Avg_CPU_time(ms)],
+rs.max_cpu_time/1000 as [Max_CPU_time(ms)],
+q.avg_compile_duration/1000 as [avg_compile_duration(ms)], 
+q.last_compile_duration/1000 as [last_compile_duration(ms)], 
+p.compatibility_level,
+rs.avg_logical_io_reads,
+rs.avg_logical_io_writes,
+rs.avg_physical_io_reads,
+rs.last_physical_io_reads,
+rs.max_physical_io_reads,
+rs.avg_num_physical_io_reads,
+rs.last_num_physical_io_reads,
+rs.max_num_physical_io_reads,
+rs.avg_dop,
+qt.query_sql_text, 
+qt.query_text_id, p.plan_id, 
+GETUTCDATE() AS CurrentUTCTime, 
+rs.last_execution_time
+FROM sys.query_store_query_text AS qt 
+JOIN sys.query_store_query AS q 
+ON qt.query_text_id = q.query_text_id 
+JOIN sys.query_store_plan AS p 
+ON q.query_id = p.query_id 
+JOIN sys.query_store_runtime_stats AS rs 
+ON p.plan_id = rs.plan_id 
+WHERE rs.last_execution_time between @starttime and @endtime
+ORDER BY rs.avg_cpu_time DESC; -- by CPU
+--ORDER BY rs.max_duration DESC; -- by Duration
+--ORDER BY rs.avg_logical_io_reads DESC;  -- by IO
+--ORDER BY rs.avg_logical_io_writes DESC; -- by Writes
+
+============
+
+
+/*Find last 10 queries executed in the database*/
+SELECT TOP 10 qt.query_sql_text, q.query_id, 
+    qt.query_text_id, p.plan_id, rs.last_execution_time
+FROM sys.query_store_query_text AS qt 
+JOIN sys.query_store_query AS q 
+    ON qt.query_text_id = q.query_text_id 
+JOIN sys.query_store_plan AS p 
+    ON q.query_id = p.query_id 
+JOIN sys.query_store_runtime_stats AS rs 
+    ON p.plan_id = rs.plan_id
+ORDER BY rs.last_execution_time DESC;
+
+/*Get number of executions for each query*/
+SELECT q.query_id, qt.query_text_id, qt.query_sql_text, 
+    SUM(rs.count_executions) AS total_execution_count
+FROM sys.query_store_query_text AS qt 
+JOIN sys.query_store_query AS q 
+    ON qt.query_text_id = q.query_text_id 
+JOIN sys.query_store_plan AS p 
+    ON q.query_id = p.query_id 
+JOIN sys.query_store_runtime_stats AS rs 
+    ON p.plan_id = rs.plan_id
+GROUP BY q.query_id, qt.query_text_id, qt.query_sql_text
+ORDER BY total_execution_count DESC;
+GO
+
+
+
+/*Get queries with more than one execution plan (plan forcing candidates)*/
+;WITH Query_MultPlans
+AS
+(
+SELECT COUNT(*) AS cnt, q.query_id 
+FROM sys.query_store_query_text AS qt
+JOIN sys.query_store_query AS q
+    ON qt.query_text_id = q.query_text_id
+JOIN sys.query_store_plan AS p
+    ON p.query_id = q.query_id
+GROUP BY q.query_id
+HAVING COUNT(distinct plan_id) > 1
+)
+
+SELECT q.query_id, object_name(object_id) AS ContainingObject, query_sql_text,
+plan_id, p.query_plan AS plan_xml,
+p.last_compile_start_time, p.last_execution_time
+FROM Query_MultPlans AS qm
+JOIN sys.query_store_query AS q
+    ON qm.query_id = q.query_id
+JOIN sys.query_store_plan AS p
+    ON q.query_id = p.query_id
+JOIN sys.query_store_query_text qt 
+    ON qt.query_text_id = q.query_text_id
+ORDER BY query_id, plan_id;
+GO
+
+
+
+
+/*Get detailed info for top 25 queries with the longest execution in last hour*/
+;WITH AggregatedDurationLastHour
+AS
+(
+   SELECT q.query_id, SUM(count_executions * avg_duration) AS total_duration,
+   COUNT (distinct p.plan_id) AS number_of_plans
+   FROM sys.query_store_query_text AS qt JOIN sys.query_store_query AS q 
+   ON qt.query_text_id = q.query_text_id
+   JOIN sys.query_store_plan AS p ON q.query_id = p.query_id
+   JOIN sys.query_store_runtime_stats AS rs ON rs.plan_id = p.plan_id
+   JOIN sys.query_store_runtime_stats_interval AS rsi 
+   ON rsi.runtime_stats_interval_id = rs.runtime_stats_interval_id
+   WHERE rsi.start_time >= DATEADD(hour, -1, GETUTCDATE()) 
+   AND rs.execution_type_desc = 'Regular'
+   GROUP BY q.query_id
+)
+,OrderedDuration
+AS
+(
+   SELECT query_id, total_duration, number_of_plans, 
+   ROW_NUMBER () OVER (ORDER BY total_duration DESC, query_id) AS RN
+   FROM AggregatedDurationLastHour
+)
+SELECT qt.query_sql_text, object_name(q.object_id) AS containing_object,
+total_duration AS total_duration_microseconds, number_of_plans,
+CONVERT(xml, p.query_plan) AS query_plan_xml, p.is_forced_plan, p.last_compile_start_time,q.last_execution_time
+FROM OrderedDuration od JOIN sys.query_store_query AS q ON q.query_id  = od.query_id
+JOIN sys.query_store_query_text qt ON q.query_text_id = qt.query_text_id
+JOIN sys.query_store_plan p ON q.query_id = p.query_id
+WHERE OD.RN <=25 ORDER BY total_duration DESC
+
+GO
+
+
+
+
+/*
+	Queries with multiple plans among those with longest duration within last hour
+	Use results to identify which plan had the best performance 
+	as it can be a good candidate for plan forcing 
+*/
+;WITH AggregatedDurationLastHour
+AS
+(
+   SELECT q.query_id, SUM(count_executions * avg_duration) AS total_duration,
+   COUNT (distinct p.plan_id) AS number_of_plans
+   FROM sys.query_store_query_text AS qt JOIN sys.query_store_query AS q 
+   ON qt.query_text_id = q.query_text_id
+   JOIN sys.query_store_plan AS p ON q.query_id = p.query_id
+   JOIN sys.query_store_runtime_stats AS rs ON rs.plan_id = p.plan_id
+   JOIN sys.query_store_runtime_stats_interval AS rsi 
+   ON rsi.runtime_stats_interval_id = rs.runtime_stats_interval_id
+   WHERE rsi.start_time >= DATEADD(hour, -1, GETUTCDATE()) 
+   AND rs.execution_type_desc = 'Regular'
+   GROUP BY q.query_id
+)
+,OrderedDuration
+AS
+(
+   SELECT query_id, total_duration, number_of_plans, 
+   ROW_NUMBER () OVER (ORDER BY total_duration DESC, query_id) AS RN
+   FROM AggregatedDurationLastHour
+)
+SELECT qt.query_sql_text, object_name(q.object_id) AS containing_object, q.query_id,
+p.plan_id,rsi.start_time as interval_start, rs.avg_duration,
+CONVERT(xml, p.query_plan) AS query_plan_xml
+FROM OrderedDuration od JOIN sys.query_store_query AS q ON q.query_id  = od.query_id
+JOIN sys.query_store_query_text AS qt ON q.query_text_id = qt.query_text_id
+JOIN sys.query_store_plan AS p ON q.query_id = p.query_id
+JOIN sys.query_store_runtime_stats AS rs ON rs.plan_id = p.plan_id
+JOIN sys.query_store_runtime_stats_interval AS rsi ON rsi.runtime_stats_interval_id = rs.runtime_stats_interval_id
+WHERE rsi.start_time >= DATEADD(hour, -1, GETUTCDATE())
+AND OD.RN <=25 AND number_of_plans > 1
+ORDER BY total_duration DESC, query_id, rsi.runtime_stats_interval_id, p.plan_id
+
+/*Check the state of forced plans. Inspect force_failure_reason and last_force_failure_reason_desc*/
+SELECT p.plan_id, p.query_id, q.object_id as containing_object_id,
+force_failure_count, last_force_failure_reason_desc
+FROM sys.query_store_plan p
+JOIN sys.query_store_query q on p.query_id = q.query_id
+WHERE is_forced_plan = 1;
+
+
+
+/*Find queries that were aborted or got exceptions*/
+select 
+s.query_id
+,r.plan_id
+, r.execution_type
+, r.execution_type_desc
+, r.first_execution_time
+, r.last_execution_time
+, r.count_executions
+, r.avg_duration
+, s.query_plan
+from sys.query_store_runtime_stats as r  INNER JOIN sys.query_store_plan as s on r.plan_id = s.plan_id 
+where r.execution_type <> '0' 
+order by r.last_execution_time
+
+/*Find wait stats for query that got aborted (like timeout)*/
+select top(50)
+s.query_id
+,r.plan_id
+, r.execution_type
+, r.execution_type_desc
+, r.first_execution_time
+, r.last_execution_time
+, r.count_executions
+, r.avg_duration
+, CAST (s.query_plan as XML) as query_plan
+, qt.query_sql_text
+, ws.wait_category_desc
+, ws.execution_type_desc
+, ws.total_query_wait_time_ms
+, ws.avg_query_wait_time_ms
+from sys.query_store_runtime_stats as r  
+INNER JOIN sys.query_store_plan as s on r.plan_id = s.plan_id 
+INNER JOIN sys.query_store_query as q on q.query_id = s.query_id
+INNER JOIN sys.query_store_query_text AS qt on qt.query_text_id = q.query_text_id
+LEFT OUTER JOIN sys.query_store_wait_stats ws ON ws.plan_id = s.plan_id
+where r.execution_type = '3' 
+and qt.query_sql_text like '%bla bla bla%'
+order by r.last_execution_time
+
+
+-- List all queries with Sql Text and Plans
+
+select distinct
+			 qsq.query_id     
+			,qsp.plan_id        
+			,qsq.query_text_id        
+			,qsq.context_settings_id   
+			,qsq.is_internal_query 
+			,qsq.query_parameterization_type    
+			,qsq.last_compile_batch_offset_start 
+			,qsq.last_compile_batch_offset_end 
+			,qsq.count_compiles       
+			,qsq.avg_compile_duration   
+			,qsq.last_compile_duration
+			,qsq.avg_bind_duration      
+			,qsq.last_bind_duration   
+			,qsq.avg_bind_cpu_time      
+			,qsq.last_bind_cpu_time   
+			,qsq.avg_optimize_duration  
+			,qsq.last_optimize_duration 
+			,qsq.avg_optimize_cpu_time  
+			,qsq.last_optimize_cpu_time 
+			,qsq.avg_compile_memory_kb  
+			,qsq.last_compile_memory_kb 
+			,qsq.max_compile_memory_kb 
+			,qsq.is_clouddb_internal_query
+			,qsqt.query_sql_text
+			,qsp.query_plan
+		from 
+			[sys].[query_store_runtime_stats_interval] qsri
+			inner join [sys].[query_store_runtime_stats] qsrts on qsri.runtime_stats_interval_id = qsrts.runtime_stats_interval_id
+			inner join [sys].[query_store_plan] qsp on qsrts.plan_id = qsp.plan_id
+			inner join [sys].[query_store_query] qsq on qsp.query_id = qsq.query_id
+			inner join [sys].[query_store_query_text] qsqt on qsq.query_text_id = qsqt.query_text_id
+		where 
+			(qsrts.avg_duration > 100000												-- Average duration for this aggregation interval is greater than 100 milliseconds
+				or (qsrts.stdev_duration / (qsrts.avg_duration  + 1   )) > 1 )					-- or ratio stddev/avg duration is greater than 1
+		order by 
+			qsq.query_id
+

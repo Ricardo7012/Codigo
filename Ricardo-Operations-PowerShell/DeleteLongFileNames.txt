@@ -1,0 +1,15 @@
+#FIND LONG FOLDER NAMES 
+# https://docs.microsoft.com/en-us/windows/win32/fileio/naming-a-file
+# Maximum Path Length Limitation
+# In editions of Windows before Windows 10 version 1607, the maximum length for a path is MAX_PATH, which is defined as 260 characters. In later versions of # # Windows, changing a registry key or using the Group Policy tool is required to remove the limit. See Maximum Path Length Limitation for full details.
+
+cls
+cd \
+cd E:\EntDataSystems
+cmd /c dir /s /b |? {$_.length -gt 260}
+
+#How to delete directories with path/names too long for normal delete
+CLS
+mkdir E:\EntDataSystems\Red-Gate\SQL-Doc\DELETEME
+robocopy E:\EntDataSystems\Red-Gate\SQL-Doc\DELETEME "E:\EntDataSystems\Red-Gate\SQL-Doc\Level 3" /purge
+rmdir E:\EntDataSystems\Red-Gate\SQL-Doc\DELETEME

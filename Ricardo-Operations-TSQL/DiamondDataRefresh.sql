@@ -1,0 +1,34 @@
+--****************************************************************
+-- CHECK ROW COUNT
+--SOURCE = IEHPSQLA1\SQL1
+--DEST = HSPSQLPROTO
+print getdate()
+ 
+USE Diam_725
+GO
+SELECT COUNT(*) as JPROVFM0_DAT FROM diamond.JPROVFM0_DAT
+SELECT COUNT(*) as JPROVAM0_DAT FROM diamond.JPROVAM0_DAT
+SELECT COUNT(*) as JPROVAM0_DAT FROM diamond.JPROVAM0_DAT
+SELECT COUNT(*) as JVENDRM0_DAT FROM diamond.JVENDRM0_DAT
+SELECT COUNT(*) as JVENDAM0_DAT FROM diamond.JVENDAM0_DAT
+SELECT COUNT(*) as JADMINM0_ISG FROM diamond.JADMINM0_ISG
+
+
+--ADDED 09182017  
+SELECT COUNT(*) as JBENEFM0_DAT FROM diamond.JBENEFM0_DAT
+SELECT COUNT(*) as JBENEFM1_DAT FROM diamond.JBENEFM1_DAT
+SELECT COUNT(*) as JBNACCM0_DAT FROM diamond.JBNACCM0_DAT
+SELECT COUNT(*) as JBTYPEM0_DAT FROM diamond.JBTYPEM0_DAT
+SELECT COUNT(*) as JBRULEM0_DAT FROM diamond.JBRULEM0_DAT
+SELECT COUNT(*) as JREASNM0_DAT FROM diamond.JREASNM0_DAT
+ 
+ 
+USE HSP_Conv_Brandon
+GO
+SELECT COUNT(*) as NPI FROM data.NPI
+SELECT COUNT(*) as PayPilot FROM [data].PayPilot
+SELECT COUNT(*) as Claim_Count_PerMonth_Provider FROM [data].Claim_Count_PerMonth_Provider
+SELECT COUNT(*) as Claim_Count_PerMonth_TIN FROM [data].Claim_Count_PerMonth_TIN
+--**************************************************************** 
+
+SELECT COUNT(*) as JUTILDM0_DAT FROM diamond.JUTILDM0_DAT

@@ -1,0 +1,36 @@
+#### COPY FOLDERS RECURSE AND PERMISSIONS
+### https://www.tutorialspoint.com/how-to-copy-ntfs-permissions-using-powershell
+Clear-Host
+Get-Date
+hostname
+$source = "E:\Target\1"
+$dest = "E:\Destination"
+
+Copy-Item $source $dest -Filter {PSIsContainer} -Recurse -Force #-whatif
+
+CLS
+$source = "E:\Target\1"
+$dest = "E:\Destination\1"
+
+Write-Host -ForegroundColor Green "### SOURCE ################################################"
+###################################################################
+(Get-Acl $source).Access | ft -AutoSize
+
+Write-Host -ForegroundColor Green "### DEST ################################################"
+###################################################################
+(Get-Acl $dest).Access | ft -AutoSize
+
+# ONE LEVEL
+# Get-ACL $source | Set-Acl $dest #-whatif
+
+
+$perm = Get-Acl $source
+Get-ChildItem $dest -Recurse | Set-Acl -AclObject $perm #-WhatIf
+
+Write-Host -ForegroundColor Green "### SOURCE ################################################"
+###################################################################
+(Get-Acl $source).Access | ft -AutoSize
+
+Write-Host -ForegroundColor Green "### DEST ################################################"
+###################################################################
+(Get-Acl $dest).Access | ft -AutoSize

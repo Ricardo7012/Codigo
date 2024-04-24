@@ -1,0 +1,90 @@
+-- 1 Backup before Proceeding
+BACKUP DATABASE HSP 
+    TO DISK = 'E:\MSSQL\Backup\HSP_PRE_TDE.bak'
+    WITH 
+	NOFORMAT, 
+    INIT,  
+    NAME = 'HSP_PRE_TDE', 
+    SKIP, 
+    NOREWIND, 
+    NOUNLOAD,  
+    STATS = 10;
+GO
+
+-- 2 
+USE master; 
+GO
+
+SELECT  *
+FROM    sys.symmetric_keys
+WHERE   name = '##MS_DatabaseMasterKey##';
+GO
+
+SELECT  NEWID();
+
+-- 3 IF NO KEY CREATE ON EACH NODE 
+CREATE MASTER KEY ENCRYPTION BY PASSWORD =
+    '4EAC97F9-6C85-4204-83B6-5757D325A557';
+GO
+
+-- 4 CREATE DATABASE CERTIFICATE
+USE HSP;
+GO
+CREATE CERTIFICATE HSP_TDE_EncryptionCert 
+ENCRYPTION BY PASSWORD = '4EAC97F9-6C85-4204-83B6-5757D325A557'
+WITH SUBJECT = 'HSP_TDE_EncryptionCert';
+GO
+
+--DROP CERTIFICATE HSP_TDE_EncryptionCert
+
+-- 5 SINCE THIS CERTIFICATE IS LOCATED IN THE MASTER DATABASE AND WILL BE USED TO PROTECT THE DATABASE ENCRYPTION KEY
+USE master;
+GO
+CREATE CERTIFICATE QVSQLHSP_MasterCert 
+WITH SUBJECT = 'Cert used for TDE';
+GO
+
+--DROP CERTIFICATE QVSQLHSP_MasterCert
+
+-- 6 BACKUP OF THE CERTIFICATE WITH ITS PRIVATE KEY, USING THE BACKUP CERTIFICATE. IN THE EVENT THAT THE DATABASE NEEDS TO BE RESTORED, THIS CERTIFICATE AND ITS PRIVATE KEY WILL BE REQUIRED.
+USE master;
+GO
+ 
+BACKUP CERTIFICATE QVSQLHSP_MasterCert
+    TO FILE = 'E:\MSSQL\Backup\QVSQLHSP_MasterCert.bak'
+    WITH PRIVATE KEY (
+               FILE = 'E:\MSSQL\Backup\QVSQLHSP_MasterCert.pvk',
+               ENCRYPTION BY PASSWORD = '4EAC97F9-6C85-4204-83B6-5757D325A557'); 
+GO
+
+-- 7 CREATE THE DATABASE ENCRYPTION KEY
+USE HSP;
+GO
+CREATE DATABASE ENCRYPTION KEY
+    WITH ALGORITHM = AES_256
+    ENCRYPTION BY SERVER CERTIFICATE QVSQLHSP_MasterCert;
+GO
+-- 8 ENABLING TDE
+USE HSP;
+GO
+ALTER DATABASE HSP
+    SET ENCRYPTION ON;
+GO
+
+-- 9 VERIFY
+-- https://msdn.microsoft.com/en-us/library/bb677274.aspx sys.dm_database_encryption_keys 
+USE master; 
+GO
+ 
+SELECT 
+    db.name,
+    db.is_encrypted,
+    dm.encryption_state,
+    dm.percent_complete,
+    dm.key_algorithm,
+    dm.key_length
+FROM 
+    sys.databases db
+    LEFT OUTER JOIN sys.dm_database_encryption_keys dm
+        ON db.database_id = dm.database_id;
+GO
