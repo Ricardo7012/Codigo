@@ -1,0 +1,12 @@
+--USE A SIZE YOU'D LIKE
+USE [master]
+GO
+ALTER DATABASE [model] MODIFY FILE ( NAME = N'modeldev', SIZE = 128MB , FILEGROWTH = 128MB )
+GO
+ALTER DATABASE [model] MODIFY FILE ( NAME = N'modellog', SIZE = 128MB , FILEGROWTH = 128MB )
+GO
+
+EXEC sys.sp_configure N'backup compression default', N'1'
+GO
+RECONFIGURE WITH OVERRIDE
+GO
