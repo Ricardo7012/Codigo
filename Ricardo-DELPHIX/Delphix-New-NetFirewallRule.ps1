@@ -94,7 +94,7 @@ Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled True
 
 ## https://documentation.delphix.com/continuous-data-10-0-0-0/docs/overview-of-requirements-for-sql-server-environments?highlight=sql%20user%20permissions#staging-windows-user-requirements
 Write-host ========= ADD ACCOUNT TO LOCAL ADMIN ===================
-$DomainName = "IEHP"
+$DomainName = "xxx"
 $ComputerName = "localhost"
 $UserName = ""
 $AdminGroup = [ADSI]"WinNT://$ComputerName/Administrators,group"
