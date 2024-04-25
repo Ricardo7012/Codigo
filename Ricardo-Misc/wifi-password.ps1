@@ -1,1 +1,3 @@
-﻿netsh wlan show profile SSID key=clear
+﻿
+Clear-Host
+netsh wlan show profile R12 key=clear

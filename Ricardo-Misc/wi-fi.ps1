@@ -2,6 +2,10 @@
 
 ipconfig
 
+# DOWNLOAD NMAP HERE 
+# https://nmap.org/download#windows
+
+## PING SWEEP
 nmap -sn 192.168.00.0/24
 
 nmap -sn 10.215.00.0/24
