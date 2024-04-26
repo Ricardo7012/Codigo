@@ -17,7 +17,7 @@ Links:
   http://msdn.microsoft.com/en-us/library/ms188270.aspx
 
 */
-USE HSP_rpt;
+USE AdventureWorks2019;
 GO
 
  --List all heap tables
@@ -49,8 +49,7 @@ SELECT @@ServerName           AS SERVERNAME
 FROM sys.dm_db_index_physical_stats(DB_ID(), OBJECT_ID('Claim_Details'), DEFAULT, DEFAULT, 'DETAILED');
 
 
-USE HSP_RPT
-go
+
 SET STATISTICS IO,TIME ON
 SELECT 'START TIME', @@ServerName AS SERVERNAME,DB_NAME() AS DATABASENAME, GETDATE() AS DATETIME
 /*START PASTE RESULTS IN HERE*/

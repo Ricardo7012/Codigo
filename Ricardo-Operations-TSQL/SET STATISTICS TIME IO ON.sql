@@ -1,7 +1,8 @@
 SET STATISTICS TIME, IO ON;
 
 
---CPU. One of the most frequent contributors to high CPU consumption is stored procedure recompilation. Here is a DMV that displays the list of the top 25 recompilations:
+--CPU. One of the most frequent contributors to high CPU consumption is stored procedure recompilation. 
+--Here is a DMV that displays the list of the top 25 recompilations:
 SELECT TOP 25
        SQL_TEXT.text,
        sql_handle,

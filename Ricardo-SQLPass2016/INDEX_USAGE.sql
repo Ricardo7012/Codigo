@@ -1,3 +1,5 @@
+Use Adventureworks2019
+go
 --SHOW ALL INDEXES AND THEIR USAGE FOR THE CURRENT DATABASE
 select object_schema_name(i.object_id) + '.' + object_name(i.object_id) as objectName,
          i.name, 
