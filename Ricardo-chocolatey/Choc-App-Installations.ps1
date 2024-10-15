@@ -20,13 +20,17 @@ choco install notepadplusplus -y
 choco install keepass -y
 choco install powershellplus -y
 
-choco install vscode
-choco install vscode-powershell
-choco install notepadplusplus.install
+choco install vscode -y
+choco install vscode-powershell -y
+choco install notepadplusplus.install -y
 choco install keepass -y
 choco install powershellplus -y
 choco install azure-data-studio -y
 choco install github-desktop -y
+
+choco install googlechrome -y
+choco install safari -y
+choco install keepassxc -y
 
 choco install sqltoolbelt -y
 choco install microsoftazurestorageexplorer -y
