@@ -5,7 +5,7 @@
  
 ## https://chocolatey.org/install
 
-#Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+# Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
 
 ##################################################################
@@ -20,6 +20,14 @@ choco install notepadplusplus -y
 choco install keepass -y
 choco install powershellplus -y
 
+choco install vscode
+choco install vscode-powershell
+choco install notepadplusplus.install
+choco install keepass -y
+choco install powershellplus -y
+choco install azure-data-studio -y
+choco install github-desktop -y
+
 choco install sqltoolbelt -y
 choco install microsoftazurestorageexplorer -y
 choco install azure-data-studio -y
@@ -28,7 +36,7 @@ choco install azure-data-studio-sql-server-admin-pack -y
 choco install github-desktop -y
 
 choco install sql-server-management-studio -y
-#choco install virtualbox -y
+# choco install virtualbox -y
 choco install sqlsentryplanexplorer  -y
 choco install planexplorerssmsaddin -y
 
